@@ -8,10 +8,22 @@
                 </p>
                 <div class="row">
                     <div class="col is-horizontal-align">
-                        <a href="https://www.d-d-s.ch/">Départ de Sentier (DdS)</a>
+                        <a href="https://www.d-d-s.ch/">
+                            <img
+                                class="logo-img"
+                                src="/images/dds-logo.png"
+                                alt="Départ de Sentier (DdS)"
+                            />
+                        </a>
                     </div>
                     <div class="col is-horizontal-align">
-                        <a href="https://www.list.lu/">Luxembourg Institute of Science and Techonology (LIST)</a>
+                        <a href="https://www.list.lu/">
+                            <img
+                                class="logo-img"
+                                src="/images/LIST-logo.jpg"
+                                alt="Luxembourg Institute of Science and Techonology (LIST)"
+                            />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -27,7 +39,15 @@
 </template>
 
 <style>
+/* footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+} */
 .center {
     text-align: center;
+}
+.logo-img {
+    height: 84px;
 }
 </style>

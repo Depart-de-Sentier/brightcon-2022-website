@@ -14,6 +14,9 @@
                         <nuxt-link to="/programme" class="button primary outline">
                             Programme
                         </nuxt-link>
+                        <nuxt-link to="/calls" class="button primary outline">
+                            Calls
+                        </nuxt-link>
                         <nuxt-link to="/register" class="button primary">
                             Register
                         </nuxt-link>

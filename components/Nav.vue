@@ -10,7 +10,8 @@
             <span class="is-vertical-align">Open Sustainability Event</span>
         </div> -->
         <div class="nav-right">
-            <nuxt-link to="/sponsors" active-class="active">Sponsors</nuxt-link>
+            <nuxt-link to="/calls" active-class="active">Calls</nuxt-link>
+           <!--  <nuxt-link to="/sponsors" active-class="active">Sponsors</nuxt-link> -->
             <nuxt-link to="/programme" active-class="active" class="button primary outline">Programme</nuxt-link>
             <nuxt-link to="/register" acitve-class="active" class="button primary">Register</nuxt-link>
         </div>
