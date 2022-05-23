@@ -19,7 +19,7 @@
             <div class="bg-dark text-light">
                 <div class="container">
                     <div class="center">
-                        ©2022 DDS, LIST | Contact Us | Legal Info
+                        ©2022 <a href="https://www.d-d-s.ch/">Départ de Sentier</a>, <a href="https://www.list.lu">Luxembourg Institute of Science and Technology</a> | Contact Us | <nuxt-link to="/legal">Legal Info</nuxt-link>
                     </div>
                 </div>
             </div>

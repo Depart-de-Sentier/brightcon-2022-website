@@ -111,7 +111,7 @@ export default defineComponent({
                         
                         {
                             time: "17:30-20:00",
-                            title: "Conference dinner"
+                            title: "Conference cocktail drink"
                         },
                         {
                             time: "19:00-19:30",
