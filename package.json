@@ -7,7 +7,10 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.3"
+    "eslint": "^8.16.0",
+    "eslint-plugin-vue": "^9.0.1",
+    "nuxt": "3.0.0-rc.3",
+    "prettier": "2.6.2"
   },
   "dependencies": {
     "chota": "^0.8.0"
