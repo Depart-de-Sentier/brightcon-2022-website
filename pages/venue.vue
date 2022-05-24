@@ -5,7 +5,7 @@
     Brightcon 2022 will take place in the
     <a href="https://www.belval.lu/en/">Belval campus</a> of Esch-sur-Alzette,
     Luxembourg.
-    <h2>How to reach Luxembourg</h2>
+    <h3>How to reach Luxembourg</h3>
     <ul>
       <li>
         🚅 by Train. The train station at Luxembourg City is well connected to
@@ -50,10 +50,8 @@
         <a href="https://www.mobiliteit.lu/en/">mobiliteit.lu</a>.
       </li>
     </ul>
-  </div>
-  <div class="container">
-    <h1>Accomodation</h1>
-    <h2>Hotel in Belval</h2>
+    <h2>Accomodation</h2>
+    <h3>Hotel in Belval</h3>
     The
     <a href="https://all.accor.com/gb/city/hotels-esch-sur-alzette-v1243.shtml">
       Ibis Esch Belval (3 stars) hotel
@@ -61,7 +59,7 @@
     inside the Belval campus, a couple of minutes (walking distance) from the
     place where the conference will take place, as well as from the Belval
     Université train station.
-    <h2>Other nearby Hotels</h2>
+    <h3>Other nearby Hotels</h3>
     <ul>
       <li>
         <a href="https://bernini.lu">Bernini Hotel</a> in
@@ -74,13 +72,11 @@
         in <a href="">Esch-sur-Alzette</a>
       </li>
     </ul>
-    <h2>Alternatives</h2>
+    <h3>Alternatives</h3>
     If accomodation in Luxembourg is out of your budget, an alternative is the
     city Thionville (in France), located at only 15 minutes away from
     Bettembourg by train, and there you have a direct train to Campus Belval.
-  </div>
-  <div class="container">
-    <h1>Sights</h1>
+    <h2>Sights</h2>
     <ul>
       <li>
         World class concert hall
