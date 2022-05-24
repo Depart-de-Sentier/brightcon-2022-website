@@ -1,5 +1,5 @@
 <template>
-    <div>
-        <Sponsoring />
-    </div>
+  <div>
+    <Sponsoring />
+  </div>
 </template>

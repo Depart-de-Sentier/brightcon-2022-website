@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <Classes />
-        <Conference />
-        <Hackathon />
-    </div>
+  <div>
+    <Classes />
+    <Conference />
+    <Hackathon />
+  </div>
 </template>

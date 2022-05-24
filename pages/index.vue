@@ -1,20 +1,20 @@
 <template>
-    <div>
-        <LandingPage />
-        
-        <br/>
+  <div>
+    <LandingPage />
 
-        <!-- <SaveTheDate /> -->
-        
-        <!-- <div class="container">
+    <br />
+
+    <!-- <SaveTheDate /> -->
+
+    <!-- <div class="container">
             <hr/>
             <br/>
         </div> -->
-        
-        <!-- <Classes />
+
+    <!-- <Classes />
         <Conference />
         <Hackathon />
         <Sponsoring /> -->
-        <PreviousConferences />
-    </div>
+    <PreviousConferences />
+  </div>
 </template>

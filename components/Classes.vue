@@ -7,7 +7,6 @@
         <div class="row">
             <div class="col card">
                 <header><h2 class="header">Beginners track</h2></header>
-                <p>
                     <ul>
                         <li>Using and managing Brightway projects</li>
                         <li>The Activity Browser: LCI best practices</li>
@@ -17,11 +16,9 @@
                         <li>Stochastic calculations</li>
                         <li>Debugging common problems</li>
                     </ul>
-                </p>
             </div>
             <div class="col card">
                 <header><h2 class="header">Advanced track</h2></header>
-                <p>
                     <ul>
                         <li>Use data vectors and arrays</li>
                         <li>Using and maniliulating sliatial data</li>
@@ -30,7 +27,6 @@
                         <li>Integrating exsternal models</li>
                         <li>Global sensitivity analysis workflows</li>
                     </ul>
-                </p>
             </div>
         </div>
     </div>
