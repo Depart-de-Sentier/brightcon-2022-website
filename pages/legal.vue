@@ -2,7 +2,8 @@
   <div class="container">
     <h1 class="title">Legal Information</h1>
     <h2>Web site editor</h2>
-    The website of Brightcon 2022 is edited by <a href="https://www.d-d-s.ch/">Départ de Sentier</a> (<b>DdS</b>). For any
+    The website of Brightcon 2022 is edited by
+    <a href="https://www.d-d-s.ch/">Départ de Sentier</a> (<b>DdS</b>). For any
     question concerning this web site or its content, do not hesitate to contact
     cmutel@gmail.com
 
