@@ -7,7 +7,7 @@
     cloud below.
 
     <img
-      src="images/menti-poll-improve.png"
+      src="/images/menti-poll-improve.png"
       alt="word cloud things to improve brightcon 2021"
     />
 
