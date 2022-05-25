@@ -11,8 +11,8 @@
             </header>
           </div>
           <div class="row is-horizontal-align">
-            <span class="text-dark tag is-large">26-30</span>
             <span class="text-dark tag is-large">September</span>
+            <span class="text-dark tag is-large">26-30</span>
             <span class="text-dark tag is-large">Esch-sur-Alzette, Luxembourg</span>
           </div>
           <br>
@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="col hide-xs hide-sm">
-          <div class="card">
+          <div class="">
             <p>
               Registration will open in June. To stay updated on this annual
               conference, subscribe to our

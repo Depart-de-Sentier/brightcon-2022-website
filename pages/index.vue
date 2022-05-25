@@ -2,24 +2,15 @@
   <div>
     <LandingPage />
 
-    <br />
+    <br>
 
-    <!-- <SaveTheDate /> -->
-
-    <!-- <div class="container">
-            <hr/>
-            <br/>
-        </div> -->
-
-    <!-- <Classes />
-        <Conference />
-        <Hackathon />
-        <Sponsoring /> -->
+    <WhatIsBrightcon />
+    <Testimonials />
     <PreviousConferences />
   </div>
 </template>
 <script setup>
 useHead({
-  title: `Welcome - Brightcon 2022`,
+  title: 'Welcome - Brightcon 2022',
 });
 </script>

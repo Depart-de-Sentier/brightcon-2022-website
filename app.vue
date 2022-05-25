@@ -8,10 +8,10 @@
 
 <style>
 :root {
+  --color-error: #ffcc00;
   /* BW2 */
   /* --color-primary: rgb(104, 187, 179); */
   /* DDS */
-  /* --color-primary: #3f7565; */
   /* --color-darkGrey: #3C5343; */
 }
 </style>
