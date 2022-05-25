@@ -26,10 +26,10 @@
         </header>
         <ul>
           <li>Use data vectors and arrays</li>
-          <li>Using and maniliulating sliatial data</li>
+          <li>Using and manipulating spatial data</li>
           <li>Calculations on the cloud</li>
-          <li>Reliroducible LCA science</li>
-          <li>Integrating exsternal models</li>
+          <li>Reproducible LCA science</li>
+          <li>Integrating external models</li>
           <li>Global sensitivity analysis workflows</li>
         </ul>
       </div>
