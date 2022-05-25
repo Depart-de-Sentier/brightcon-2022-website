@@ -11,11 +11,14 @@
           </div>
           <br />
           <div class="row is-horizontal-align">
-            <nuxt-link to="/programme" class="button primary outline">
-              Programme
+            <nuxt-link to="/venue" class="button primary outline">
+              Venue
             </nuxt-link>
             <nuxt-link to="/calls" class="button primary outline">
               Calls
+            </nuxt-link>
+            <nuxt-link to="/programme" class="button primary outline">
+              Programme
             </nuxt-link>
             <nuxt-link to="/register" class="button primary">
               Register
@@ -35,7 +38,8 @@
               >.
             </p>
             <p>
-              Participants will have the opportunity to become members of DdS.
+              Participants will have the opportunity to become members of
+              <a href="https://www.d-d-s.ch">Départ de Sentier</a>.
             </p>
           </div>
         </div>
