@@ -37,7 +37,7 @@
 
     <h3>Nickel (600€)</h3>
     <ul>
-      <li>Recognition on programme and press release</li>
+      <li>Logo on website and registration area</li>
       <li>3 minute pitch of company</li>
     </ul>
     <p>
