@@ -7,7 +7,11 @@
     </p>
     <div class="row">
       <div class="col card">
-        <header><h2 class="header">Beginners track</h2></header>
+        <header>
+          <h2 class="header">
+            Beginners track
+          </h2>
+        </header>
         <ul>
           <li>Using and managing Brightway projects</li>
           <li>The Activity Browser: LCI best practices</li>
@@ -19,7 +23,11 @@
         </ul>
       </div>
       <div class="col card">
-        <header><h2 class="header">Advanced track</h2></header>
+        <header>
+          <h2 class="header">
+            Advanced track
+          </h2>
+        </header>
         <ul>
           <li>Use data vectors and arrays</li>
           <li>Using and maniliulating sliatial data</li>

@@ -9,11 +9,10 @@
 <style>
 :root {
   /* BW2 */
-  --color-primary: rgb(104, 187, 179);
+  /* --color-primary: rgb(104, 187, 179); */
   /* DDS */
-  /*  --color-primary: #3C5343 ; */
   /* --color-primary: #3f7565; */
-  --color-dark: #2b2b2b;
+  /* --color-darkGrey: #3C5343; */
 }
 </style>
 
