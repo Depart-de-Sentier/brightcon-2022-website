@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-    useHead({
-        title: `Programme - Brightcon 2022`
-    })
+useHead({
+  title: `Programme - Brightcon 2022`,
+});
 </script>

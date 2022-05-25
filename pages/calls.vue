@@ -158,7 +158,7 @@
 </template>
 
 <script setup>
-    useHead({
-        title: `Calls - Brightcon 2022`
-    })
+useHead({
+  title: `Calls - Brightcon 2022`,
+});
 </script>
