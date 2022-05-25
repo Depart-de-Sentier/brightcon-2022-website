@@ -1,12 +1,12 @@
 <template>
-    <div class="main-container">
-        <Nav />
-        <main>
-            <slot></slot>
-        </main>
-        <div class="spacer"></div>
-        <Footer class="footer"/>
-    </div>
+  <div class="main-container">
+      <Nav />
+      <main>
+          <slot></slot>
+      </main>
+      <div class="spacer"></div>
+      <Footer class="footer"/>
+  </div>
 </template>
 <style>
 .main-container {

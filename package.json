@@ -4,10 +4,17 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.3"
+    "@nuxtjs/eslint-config": "^10.0.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.1",
+    "nuxt": "3.0.0-rc.3",
+    "prettier": "2.6.2"
   },
   "dependencies": {
     "chota": "^0.8.0"
