@@ -1,9 +1,5 @@
 <template>
   <div>
-    <Head>
-      <Title> Brightcon 2022</Title>
-      <Link rel='icon' type='image/x-icon' href='/images/favicon-32x32.png'></Link>
-    </Head>
     <NuxtLayout>
       <NuxtPage/>
     </NuxtLayout>

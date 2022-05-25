@@ -33,3 +33,9 @@ Please take a look at the <nuxt-link to="/programme">Programme</nuxt-link> for m
   </table>
 </div>
 </template>
+
+<script setup>
+    useHead({
+        title: `Register - Brightcon 2022`
+    })
+</script>

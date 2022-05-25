@@ -117,3 +117,9 @@
         <p>The draft schedule has a 1-hour slot for a special session. Additional special sessions can be added for high quality proposals. A special session proposal, must include: a title, a brief description of the focus area, and a draft schedule of speakers. However, you can also propose workshop or other thematic sessions as well. The goal of Brightcon is active participation instead of passive listening, so feel free to be creative with your sessions.</p>
     </div>
 </template>
+
+<script setup>
+    useHead({
+        title: `Calls - Brightcon 2022`
+    })
+</script>
