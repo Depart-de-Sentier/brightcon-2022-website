@@ -156,3 +156,9 @@
     </p>
   </div>
 </template>
+
+<script setup>
+    useHead({
+        title: `Calls - Brightcon 2022`
+    })
+</script>

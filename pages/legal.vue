@@ -11,3 +11,8 @@
     the keg is stupid.
   </div>
 </template>
+<script setup>
+    useHead({
+        title: `Legal - Brightcon 2022`
+    })
+</script>
