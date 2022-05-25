@@ -11,15 +11,15 @@
           </div>
           <br />
           <div class="row is-horizontal-align">
-            <nuxt-link to="/venue" class="button primary outline">
+            <!-- <nuxt-link to="/venue" class="button primary outline">
               Venue
-            </nuxt-link>
+            </nuxt-link> -->
             <nuxt-link to="/calls" class="button primary outline">
               Calls
             </nuxt-link>
-            <nuxt-link to="/programme" class="button primary outline">
+            <!-- <nuxt-link to="/programme" class="button primary outline">
               Programme
-            </nuxt-link>
+            </nuxt-link> -->
             <nuxt-link to="/register" class="button primary">
               Register
             </nuxt-link>
