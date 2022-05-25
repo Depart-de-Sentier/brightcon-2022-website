@@ -1,16 +1,16 @@
 <template>
   <div>
     <div class="bg-error">
-        <div class="container">
-            <div class="row col is-horizontal-align is-vertical-align">
-                <p>
-                  Registration will open in June. To stay updated on this annual
-                  conference, subscribe to our
-                  <a href="https://brightway.groups.io/g/brightcon">
-                    mailing list </a>.
-                </p>
-                </div>
+      <div class="container">
+        <div class="row col is-horizontal-align is-vertical-align">
+          <p>
+            Registration will open in June. To stay updated on this annual
+            conference, subscribe to our
+            <a href="https://brightway.groups.io/g/brightcon"> mailing list </a
+            >.
+          </p>
         </div>
+      </div>
     </div>
     <div class="container">
       <h1 class="title">Registration</h1>
@@ -51,7 +51,6 @@
     </div>
   </div>
 </template>
-
 
 <script setup>
 useHead({

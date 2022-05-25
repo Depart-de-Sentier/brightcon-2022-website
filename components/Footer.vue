@@ -2,10 +2,8 @@
   <footer>
     <div>
       <div class="container">
-        <hr>
-        <p class="center">
-          Brightcon 2022 is being jointly organized by:
-        </p>
+        <hr />
+        <p class="center">Brightcon 2022 is being jointly organized by:</p>
         <div class="row">
           <div class="col is-horizontal-align">
             <a href="https://www.d-d-s.ch/">
@@ -13,7 +11,7 @@
                 class="logo-img"
                 src="/images/dds-logo.png"
                 alt="Départ de Sentier (DdS)"
-              >
+              />
             </a>
           </div>
           <div class="col is-horizontal-align">
@@ -22,7 +20,7 @@
                 class="logo-img"
                 src="/images/LIST-logo.jpg"
                 alt="Luxembourg Institute of Science and Techonology (LIST)"
-              >
+              />
             </a>
           </div>
         </div>
@@ -32,10 +30,10 @@
       <div class="container">
         <div class="center">
           ©2022 <a href="https://www.d-d-s.ch/">Départ de Sentier</a>,
-          <a href="https://www.list.lu">Luxembourg Institute of Science and Technology</a>
-          | Contact Us | <nuxt-link to="/legal">
-            Legal Info
-          </nuxt-link>
+          <a href="https://www.list.lu"
+            >Luxembourg Institute of Science and Technology</a
+          >
+          | Contact Us | <nuxt-link to="/legal"> Legal Info </nuxt-link>
         </div>
       </div>
     </div>

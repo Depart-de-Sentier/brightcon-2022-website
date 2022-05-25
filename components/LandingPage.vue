@@ -5,17 +5,17 @@
         <div class="col">
           <div class="row is-horizontal-align">
             <header>
-              <h1 class="header">
-                Open Sustainability Event
-              </h1>
+              <h1 class="header">Open Sustainability Event</h1>
             </header>
           </div>
           <div class="row is-horizontal-align">
             <span class="text-dark tag is-large">September</span>
             <span class="text-dark tag is-large">26-30</span>
-            <span class="text-dark tag is-large">Esch-sur-Alzette, Luxembourg</span>
+            <span class="text-dark tag is-large"
+              >Esch-sur-Alzette, Luxembourg</span
+            >
           </div>
-          <br>
+          <br />
           <div class="row is-horizontal-align">
             <!-- <nuxt-link to="/venue" class="button primary outline">
               Venue
@@ -40,7 +40,8 @@
               Registration will open in June. To stay updated on this annual
               conference, subscribe to our
               <a href="https://brightway.groups.io/g/brightcon">
-                mailing list </a>.
+                mailing list </a
+              >.
             </p>
             <p>
               Participants will have the opportunity to become members of

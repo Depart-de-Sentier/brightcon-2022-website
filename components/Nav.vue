@@ -4,7 +4,7 @@
       <nav class="nav">
         <div class="nav-left is-horizontal-align">
           <nuxt-link class="brand" href="/">
-            <img src="/images/conf_logo.png" alt="">
+            <img src="/images/conf_logo.png" alt="" />
             Brightcon 2022
           </nuxt-link>
         </div>
@@ -32,14 +32,12 @@
           Programme
         </nuxt-link>
       </div>
-      <br>
+      <br />
       <div class="is-center">
-        <nuxt-link to="/sponsors" class="button clear" active-class="active">Sponsors</nuxt-link>
-        <nuxt-link
-          to="/register"
-          acitve-class="active"
-          class="button primary"
+        <nuxt-link to="/sponsors" class="button clear" active-class="active"
+          >Sponsors</nuxt-link
         >
+        <nuxt-link to="/register" acitve-class="active" class="button primary">
           Register
         </nuxt-link>
       </div>
@@ -48,12 +46,14 @@
       <nav class="nav">
         <div class="nav-left">
           <nuxt-link class="brand" href="/">
-            <img src="/images/conf_logo.png" alt="">
+            <img src="/images/conf_logo.png" alt="" />
             Brightcon 2022
           </nuxt-link>
         </div>
         <div class="nav-right">
-          <nuxt-link to="/sponsors" class="button clear" active-class="active">Sponsors</nuxt-link>
+          <nuxt-link to="/sponsors" class="button clear" active-class="active"
+            >Sponsors</nuxt-link
+          >
           <nuxt-link
             to="/venue"
             active-class="active"
@@ -85,5 +85,5 @@
         </div>
       </nav>
     </div>
-</div>
+  </div>
 </template>
