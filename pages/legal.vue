@@ -40,3 +40,8 @@
     law and belongs to the exclusive Swiss jurisdictions.
   </div>
 </template>
+<script setup>
+    useHead({
+        title: `Legal - Brightcon 2022`
+    })
+</script>
