@@ -41,7 +41,7 @@
   </div>
 </template>
 <script setup>
-    useHead({
-        title: `Legal - Brightcon 2022`
-    })
+useHead({
+  title: `Legal - Brightcon 2022`,
+});
 </script>
