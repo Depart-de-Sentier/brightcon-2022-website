@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Brightcon 2022 Venue</h1>
+    <h1>Venue</h1>
     <h2>Location</h2>
     Brightcon 2022 will take place in the
     <a href="https://www.belval.lu/en/">Belval campus</a> of Esch-sur-Alzette,
