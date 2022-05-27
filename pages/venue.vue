@@ -97,4 +97,4 @@ export default Vue.extend({
   head: {
     title: 'Venue - Brightcon 2022'
   }
-}
+})
