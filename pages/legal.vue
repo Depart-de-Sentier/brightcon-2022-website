@@ -40,8 +40,11 @@
     law and belongs to the exclusive Swiss jurisdictions.
   </div>
 </template>
-<script setup>
-useHead({
-  title: `Legal - Brightcon 2022`,
+<script lang="ts">
+import Vue from 'vue' 
+export default Vue.extend({
+  head: {
+    title: `Legal - Brightcon 2022`,
+  }
 });
 </script>

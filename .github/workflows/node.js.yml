@@ -41,6 +41,6 @@ jobs:
         user: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
-        local: '.output/public/*'
+        local: 'dist/*'
         remote: brightcon-2022-website
         scp_options: -r

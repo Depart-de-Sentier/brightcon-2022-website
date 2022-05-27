@@ -32,7 +32,7 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent } from "vue";
+import Vue from "vue";
 
 interface Presenter {
   name: string;
@@ -53,7 +53,7 @@ interface Data {
   days: Day[];
 }
 
-export default defineComponent({
+export default Vue.extend({
   data(): Data {
     return {
       days: [

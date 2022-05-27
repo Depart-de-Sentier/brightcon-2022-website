@@ -3,7 +3,7 @@
     <div class="hide-md hide-lg">
       <nav class="nav">
         <div class="nav-left is-horizontal-align">
-          <nuxt-link class="brand" href="/">
+          <nuxt-link class="brand" to="/">
             <img src="/images/conf_logo.png" alt="">
             Brightcon 2022
           </nuxt-link>
@@ -49,7 +49,7 @@
     <div class="hide-xs hide-sm">
       <nav class="nav">
         <div class="nav-left">
-          <nuxt-link class="brand" href="/">
+          <nuxt-link class="brand" to="/">
             <img src="/images/conf_logo.png" alt="">
             Brightcon 2022
           </nuxt-link>

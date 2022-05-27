@@ -2,13 +2,20 @@
   <div class="main-container">
     <NavBar />
     <main>
-      <slot />
+      <Nuxt />
     </main>
     <div class="spacer" />
     <Footer class="footer" />
   </div>
 </template>
 <style>
+:root {
+  --color-error: #ffcc00;
+  /* BW2 */
+  /* --color-primary: rgb(104, 187, 179); */
+  /* DDS */
+  /* --color-darkGrey: #3C5343; */
+}
 .main-container {
   display: flex;
   flex-direction: column;

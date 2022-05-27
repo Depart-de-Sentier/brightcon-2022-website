@@ -10,8 +10,11 @@
     <PreviousConferences />
   </div>
 </template>
-<script setup>
-useHead({
-  title: "Welcome - Brightcon 2022",
+<script lang="ts">
+import Vue from 'vue' 
+export default Vue.extend({
+  head: {
+    title:"Welcome - Brightcon 2022",
+  }
 });
 </script>
