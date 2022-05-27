@@ -1,4 +1,4 @@
-# Brightcon 2022 prototype using Nuxt 3 Minimal Starter
+# Brightcon 2022 website using Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
