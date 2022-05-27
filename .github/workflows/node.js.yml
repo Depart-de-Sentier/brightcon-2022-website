@@ -21,10 +21,23 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: install Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run generate    
+    - name: install deps
+      run: npm ci
+    - name: Build
+      run: npm run generate
+    # dist directory created
+    - name: deploy
+      uses: mdallasanta/ssh-scp-deploy@1.2.0
+      with:
+        host: ${{ secrets.HOST }}
+        user: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        local: 'dist/*'
+        remote: brightcon-2022-website
+        scp_options: -r
