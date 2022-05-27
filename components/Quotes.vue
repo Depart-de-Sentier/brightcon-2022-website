@@ -2,7 +2,7 @@
   <div class="card bg-primary">
     <div class="userdetails">
       <div class="imgbox">
-        <img :src="imgUrl" alt="" />
+        <img :src="imgUrl" alt="">
       </div>
       <div class="detbox">
         <p class="name text-white">
@@ -15,21 +15,23 @@
     </div>
     <div class="review">
       <p>{{ reviewTitle }}</p>
-      <hr v-if="reviewMore !== '' || linkedIn !== '' || github !== ''" />
+      <hr v-if="reviewMore !== '' || linkedIn !== '' || github !== ''">
       <a
         v-if="reviewMore !== ''"
-        ref="noreferrer"
+        rel="noopener"
         :href="reviewMore"
         target="__blank"
         class="text-light"
       >
         {{ reviewMore }}
       </a>
-      <div class="is-right" v-if="linkedIn !== '' || github !== ''">
+      <div v-if="linkedIn !== '' || github !== ''" class="is-right">
         <a
           v-if="github"
           class="button clear outline is-paddingless icon-only"
           :href="github"
+          rel="noopener"
+          target="__blank"
         >
           <svg
             id="Github"
@@ -54,6 +56,8 @@
           v-if="linkedIn"
           class="button clear outline is-paddingless icon-only"
           :href="linkedIn"
+          rel="noopener"
+          target="__blank"
         >
           <svg
             id="Linkedin"
@@ -75,39 +79,39 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue'
 export default defineComponent({
   props: {
     name: {
       type: String,
-      required: true,
+      required: true
     },
     designation: {
       type: String,
-      required: true,
+      required: true
     },
     reviewTitle: {
       type: String,
-      required: true,
+      required: true
     },
     imgUrl: {
       type: String,
-      required: true,
+      required: true
     },
     reviewMore: {
       type: String,
-      default: "",
+      default: ''
     },
     linkedIn: {
       type: String,
-      default: "",
+      default: ''
     },
     github: {
       type: String,
-      default: "",
-    },
-  },
-});
+      default: ''
+    }
+  }
+})
 </script>
 
 <style scoped>

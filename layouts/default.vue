@@ -1,10 +1,10 @@
 <template>
   <div class="main-container">
-    <Nav />
+    <NavBar />
     <main>
-      <slot></slot>
+      <slot />
     </main>
-    <div class="spacer"></div>
+    <div class="spacer" />
     <Footer class="footer" />
   </div>
 </template>
