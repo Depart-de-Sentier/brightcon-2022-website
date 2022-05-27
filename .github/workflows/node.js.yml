@@ -1,5 +1,6 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# After build we deploy using a scp action
 
 name: Node.js CI
 
@@ -32,7 +33,7 @@ jobs:
       run: npm run generate
     # dist directory created
     - name: deploy
-      uses: mdallasanta/ssh-scp-deploy@1.2.0
+      uses: mdallasanta/ssh-scp-deploy@v1.2.0
       with:
         host: ${{ secrets.HOST }}
         user: ${{ secrets.USERNAME }}
