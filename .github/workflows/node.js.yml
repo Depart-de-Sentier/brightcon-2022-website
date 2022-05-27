@@ -30,9 +30,10 @@ jobs:
     - name: install deps
       run: npm ci
     - name: Build
-      - run: npm run generate
+      run: npm run generate
     # dist directory created
-      - run: ls -lha
+    - name: debug outputs
+      run: ls -lha
     - name: deploy
       uses: mdallasanta/ssh-scp-deploy@v1.2.0
       with:
