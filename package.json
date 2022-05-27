@@ -17,6 +17,7 @@
     "prettier": "2.6.2"
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
     "chota": "^0.8.0"
   }
 }
