@@ -152,8 +152,8 @@ export default Vue.extend({
               title: "Contest judging & results",
             },
             {
-              time: "12:00-13:30",
-              title: "Lunch",
+              time: "12:00-12:30",
+              title: "Farewell and thanks",
             },
           ],
         },
