@@ -38,6 +38,7 @@ export default Vue.extend({
           title: 'Keynote: "GSA Framework"',
           imgUrl: '/images/speakers/a_kim.png',
           github: 'https://github.com/aleksandra-kim',
+	  linkedIn: 'https://www.linkedin.com/in/aleksandra-kim/',
           more: 'Bio: Sasha has been pursuing her doctoral degree since March 2018 in the Technology Assessment Group under the supervision of Dr. Chris Mutel from PSI and Prof. Dr. Stefanie Hellweg from ETH Zurich. She is part of the OASES project that addresses integrated sustainability assessment of Swiss pro- duction and consumption. Her academic interests are Uncertainty and Global Sensitivity Analysis (GSA) applied to high-dimensional Life Cycle Assessment models. She is particularly keen on studying robustness and convergence properties of GSA methods, as well as their computational complexity and efficient implementation.',
         },
       ],
