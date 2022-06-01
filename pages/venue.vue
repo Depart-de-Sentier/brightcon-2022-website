@@ -112,6 +112,7 @@
                   <nuxt-link
                     :to="hotel.formUrl"
                     target="_blank"
+                    rel="noopener"
                     class="button outline primary"
                   >
                     Please use the enclosed form
