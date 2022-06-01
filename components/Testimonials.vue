@@ -7,9 +7,9 @@
         <Quotes
           :name="q.name"
           :designation="q.designation"
-          :review-title="q.reviewTitle"
+          :title="q.reviewTitle"
           :img-url="q.imgUrl"
-          :review-more="q.reviewMore"
+          :url="q.reviewMore"
           :linked-in="q.linkedIn"
           :github="q.github"
         />
