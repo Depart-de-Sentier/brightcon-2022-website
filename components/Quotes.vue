@@ -1,30 +1,36 @@
 <template>
-  <div class="card bg-primary">
+  <div :class="`card ${isGreen ? 'bg-primary' : '' }`">
     <div class="userdetails">
       <div class="imgbox">
         <img :src="imgUrl" alt="">
       </div>
       <div class="detbox">
-        <p class="name text-white">
+        <p :class="`name ${isGreen ? 'text-white' : '' }`">
           {{ name }}
         </p>
-        <p class="designation text-light">
+        <p :class="`designation ${isGreen ? 'text-light' : '' }`">
           {{ designation }}
         </p>
       </div>
     </div>
     <div class="review">
-      <p>{{ reviewTitle }}</p>
-      <hr v-if="reviewMore !== '' || linkedIn !== '' || github !== ''">
+      <p :class="`${isGreen ? 'text-white' : '' }`">{{ title }}</p>
+      <hr v-if="more !== '' || linkedIn !== '' || github !== '' || url !== ''">
       <a
-        v-if="reviewMore !== ''"
+        v-if="url !== ''"
         rel="noopener"
-        :href="reviewMore"
+        :href="url"
         target="__blank"
-        class="text-light"
+        :class="`${isGreen ? 'text-light' : '' }`"
       >
-        {{ reviewMore }}
+        {{ url }}
       </a>
+      <p
+        v-if="more !== ''"
+        :class="`${isGreen ? 'text-light' : '' }`"
+      >
+        {{ more }}
+      </p>
       <div v-if="linkedIn !== '' || github !== ''" class="is-right">
         <a
           v-if="github"
@@ -90,7 +96,7 @@ export default Vue.extend({
       type: String,
       required: true
     },
-    reviewTitle: {
+    title: {
       type: String,
       required: true
     },
@@ -98,7 +104,11 @@ export default Vue.extend({
       type: String,
       required: true
     },
-    reviewMore: {
+    more: {
+      type: String,
+      default: ''
+    },
+    url: {
       type: String,
       default: ''
     },
@@ -109,6 +119,10 @@ export default Vue.extend({
     github: {
       type: String,
       default: ''
+    },
+    isGreen:{
+      type: Boolean,
+      default: true
     }
   }
 })
@@ -169,7 +183,6 @@ export default Vue.extend({
 
 .review p {
   /* font-size: 1.4rem; */
-  color: #f3deff;
   line-height: 1.5;
   margin-bottom: 0.8rem;
 }
