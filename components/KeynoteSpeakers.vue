@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Keynote Speakers</h1>
-    <div class="row is-horizontal-align">
+    <div class="row is-horizontal-align is-vertical-align">
       <div v-for="(q, i) in knspeakers" :key="i" class="col-6 card-container">
         <Quotes
           :name="q.name"

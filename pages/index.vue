@@ -6,15 +6,16 @@
 
     <WhatIsBrightcon />
     <Novelties />
+    <KeynoteSpeakers />
     <Testimonials />
     <PreviousConferences />
   </div>
 </template>
 <script lang="ts">
-import Vue from 'vue' 
+import Vue from 'vue'
 export default Vue.extend({
-  head: {
-    title:"Welcome - Brightcon 2022",
-  }
+    head: {
+        title: "Welcome - Brightcon 2022",
+    }
 });
 </script>

@@ -3,7 +3,7 @@
     <h2>Only in Brightcon</h2>
 
     <div class="row is-vertical-align">
-      <div v-for="(q, i) in quotes" :key="i" class="col-4-md card-container">
+      <div v-for="(q, i) in quotes" :key="i" class="col-6-md card-container">
         <Quotes
           :name="q.name"
           :designation="q.designation"

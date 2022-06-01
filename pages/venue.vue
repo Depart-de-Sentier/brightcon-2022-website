@@ -93,8 +93,8 @@
                 Contact:
               </h5>
             <div>
-                <p class="with-indent" v-if="hotel.tel">Tel: {{hotel.tel}}</p>
-                <p class="with-indent" v-if="hotel.mail">Mail: <a :href="`mailto:${hotel.mail}`">{{hotel.mail}}</a></p>
+                <p v-if="hotel.tel" class="with-indent">Tel: {{hotel.tel}}</p>
+                <p v-if="hotel.mail" class="with-indent">Mail: <a :href="`mailto:${hotel.mail}`">{{hotel.mail}}</a></p>
             </div>
           </div>
 
