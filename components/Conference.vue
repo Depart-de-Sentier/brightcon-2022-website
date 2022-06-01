@@ -117,8 +117,8 @@ export default Vue.extend({
             },
             {
               time: "19:00-19:30",
-              title: "Keynote: What I hate about Brightway",
-              presenters: "TBC",
+              title: "Keynote: What I don't like about Brightway",
+              presenters: "Michael Srocka",
             },
           ],
         },
