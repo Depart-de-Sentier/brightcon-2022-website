@@ -54,71 +54,85 @@
     We have booked a number of rooms in several hotels. Please note that the
     room availability is guaranteed for a limited period. We strongly suggest
     booking your stay as soon as possible.
+    
+    <h3>Hotels with options</h3>
+
+    <div class="row is-horizontal-align">
+      <div
+        v-for="(hotel, i) in hotels"
+        :key="i"
+        class="col-6-md card hotel-card"
+      >
+          <h4 class="header">
+            <a
+              :href="hotel.websiteUrl"
+              
+            >
+              {{hotel.name}}
+            </a>
+          </h4>
+          <div>
+              <h5>
+                Comment:
+              </h5>
+            <div>
+                <p class="with-indent">{{hotel.comment}}</p>
+            </div>
+          </div>
+          <div>
+              <h5>
+                Prices:
+              </h5>
+            <div>
+                <p class="with-indent">{{hotel.price}}</p>
+            </div>
+          </div>
+
+          <div>
+              <h5>
+                Contact:
+              </h5>
+            <div>
+                <p class="with-indent" v-if="hotel.tel">Tel: {{hotel.tel}}</p>
+                <p class="with-indent" v-if="hotel.mail">Mail: <a :href="`mailto:${hotel.mail}`">{{hotel.mail}}</a></p>
+            </div>
+          </div>
+
+          <div class="grow">
+          </div>
+          <div>
+              <h5>
+                Reservation:
+              </h5>
+            <div>
+                <p class="with-indent">
+                  {{ hotel.reservation }}
+                </p>
+                <div class="is-center">
+                  <nuxt-link
+                    :to="hotel.formUrl"
+                    target="_blank"
+                    rel="noopener"
+                    class="button outline primary"
+                  >
+                    Please use the enclosed form
+                  </nuxt-link>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <h3>Other hotels without options</h3>
+
     <table>
       <tbody>
         <tr>
           <td><strong>Hotels</strong></td>
-          <td><strong>Comments</strong></td>
           <td><strong>Address</strong></td>
           <td><strong>Prices (estimation)</strong></td>
           <td><strong>Telephone</strong></td>
-          <td><h2 id="reservations">Reservations</h2></td>
-        </tr>
-        <tr>
-          <td>
-            <a
-              href="https://all.accor.com/hotel/7071/index.fr.shtml?utm_term=mar&amp;gclid=Cj0KCQjw-daUBhCIARIsALbkjSbTel61VKraL5IinXv1RPui8zPTg62vH8mChZ2gxhK0sFhpfGL9e-MaAsy2EALw_wcB&amp;utm_campaign=ppc-ibi-mar-goo-be-fr-reg_top-mix-se&amp;utm_medium=cpc&amp;utm_content=be-fr-LU-V1243&amp;utm_source=google"
-              >IBIS Esch-Belval</a
-            >
-          </td>
-          <td>Near the station of Belval</td>
-          <td>
-            12, avenue du Rock’n Roll (Belval)<br />
-            L-4361 Esch-sur-Alzette
-          </td>
-          <td>
-            <p>105 € /night (single room)</p>
-            <p>120 €/night (double room)</p>
-          </td>
-          <td>
-            (+352)261731<br />
-            Email: <a href="mailto:H7071-BO@accor.com">H7071-BO@accor.com</a>
-          </td>
-          <td>
-            20 rooms in option until 24/08/2022 <br />
-            <a href="/hotelforms/Reservation_Form_Ibis.pdf"
-              >Please use the enclosed form</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a
-              href="https://www.myresidhome.com/esch-sur-alzette/residhome-luxembourg-esch-belval/apparthotel-residence-hoteliere.html?utm_source=adwords&amp;utm_medium=content&amp;utm_campaign=DSA_Gen_Ann3"
-              >ResidHome Luxembourg Esch-Belval</a
-            >
-          </td>
-          <td>5 minutes’ walk from the conference venue</td>
-          <td>
-            3 Bd du Jazz (Belval)<br />
-            L-4370 Esch-sur-Alzette
-          </td>
-          <td>120 € (1 person with breakfast)</td>
-          <td>
-            Email:
-            <a href="mailto:Luxembourg.eschbelval@residhome.com"
-              >Luxembourg.eschbelval@residhome.com</a
-            >
-          </td>
-          <td>
-            20 rooms in option until 24/08/2022 <br />
-            <a href="/hotelforms/Bon_BRIGHTCON_2022.pdf">
-              Please use the enclosed form</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td colspan="6"><strong>Other hotels</strong></td>
         </tr>
         <tr>
           <td>
@@ -126,20 +140,17 @@
               >Youth Hostel Esch-sur-Alzette</a
             >
           </td>
-          <td></td>
           <td>
             17, Boulevard John F. Kennedy<br />
             L-4170 Esch-sur-Alzette
           </td>
           <td>See website</td>
           <td>(+352) 26 27 66 450</td>
-          <td>No option</td>
         </tr>
         <tr>
           <td>
             <a href="https://thesevenhotel.lu/lhotel/">The Seven Hotel</a>
           </td>
-          <td></td>
           <td>
             50 Gaalgebierg<br />
             L-4142 Esch-sur-Alzette
@@ -155,18 +166,15 @@
               >reservation@thesevenhotel.lu</a
             >
           </td>
-          <td>No option</td>
         </tr>
         <tr>
           <td><a href="https://www.hotel-acacia.lu/">Hôtel Acacia</a></td>
-          <td></td>
           <td>
             10, rue de la Libération<br />
             L-4210 Esch-sur-Alzette
           </td>
           <td>Single room: 80 €/night</td>
           <td>+(352) 54 10 61</td>
-          <td>No option</td>
         </tr>
         <tr>
           <td>
@@ -174,14 +182,12 @@
               >Hôtel de la Poste</a
             >
           </td>
-          <td></td>
           <td>
             107 Rue de l'Alzette<br />
             Esch-sur-Alzette
           </td>
           <td>Single room: 115 €/night</td>
           <td>+(352) 54 00 18</td>
-          <td>No option</td>
         </tr>
       </tbody>
     </table>
@@ -205,10 +211,63 @@
 </template>
 
 <script lang="ts">
+
 import Vue from 'vue'
+
+interface Hotel {
+  name: String
+  websiteUrl: String
+  comment: String
+  adress: String
+  price: String
+  tel: String
+  mail: String
+  reservation: String
+  formUrl: String
+}
 export default Vue.extend({
+  data() {
+    return {
+      hotels: [
+        {
+          name: 'IBIS Esch-Belval',
+          websiteUrl: 'https://all.accor.com/hotel/7071/index.fr.shtml?utm_term=mar&gclid=Cj0KCQjw-daUBhCIARIsALbkjSbTel61VKraL5IinXv1RPui8zPTg62vH8mChZ2gxhK0sFhpfGL9e-MaAsy2EALw_wcB&utm_campaign=ppc-ibi-mar-goo-be-fr-reg_top-mix-se&utm_medium=cpc&utm_content=be-fr-LU-V1243&utm_source=google',
+          comment: 'Near the station of Belval',
+          adress: '12, avenue du Rock’n Roll (Belval) L-4361 Esch-sur-Alzette',
+          price: '105 € /night (single room) | 120 €/night (double room)',
+          tel: '(+352)261731',
+          mail: 'H7071-BO@accor.com',
+          reservation: '20 rooms in option until 24/08/2022',
+          formUrl: '/hotelforms/Reservation_Form_Ibis.pdf'
+        },
+        {
+          name: 'ResidHome Luxembourg Esch-Belval',
+          websiteUrl: 'https://www.myresidhome.com/esch-sur-alzette/residhome-luxembourg-esch-belval/apparthotel-residence-hoteliere.html?utm_source=adwords&utm_medium=content&utm_campaign=DSA_Gen_Ann3',
+          comment: '5 minutes’ walk from the conference venue',
+          adress: '3 Bd du Jazz (Belval) L-4370 Esch-sur-Alzette',
+          price: '120 € (1 person with breakfast)',
+          tel: '',
+          mail: 'Luxembourg.eschbelval@residhome.com',
+          reservation: '20 rooms in option until 24/08/2022',
+          formUrl: '/hotelforms/Bon_BRIGHTCON_2022.pdf'
+        },
+      ],
+    }
+  },
   head: {
     title: 'Venue - Brightcon 2022',
-  },
+  }
 })
 </script>
+<style>
+.with-indent {
+  text-indent: 1.5rem;
+}
+.hotel-card {
+  display: flex;
+  flex-direction: column;
+}
+.grow {
+  flex-grow: 1;
+}
+</style>
