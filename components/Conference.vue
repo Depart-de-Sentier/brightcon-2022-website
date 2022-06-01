@@ -20,16 +20,14 @@
             </tr>
           </thead>
           <tbody>
-            <template v-for="session in day.sessions">
-              <tr>
-                <td>{{ session.time }}</td>
-                <td>{{ session.title }}</td>
-                <td v-if="session.keynote">
-                  <nuxt-link to="/speakers">{{ session.presenters }}</nuxt-link>
-                </td>
-                <td v-else>{{ session.presenters }}</td>
-              </tr>
-            </template>
+            <tr v-for="(session, session_id) in day.sessions" :key="session_id">
+              <td>{{ session.time }}</td>
+              <td>{{ session.title }}</td>
+              <td v-if="session.keynote">
+                <nuxt-link to="/speakers">{{ session.presenters }}</nuxt-link>
+              </td>
+              <td v-else>{{ session.presenters }}</td>
+            </tr>
           </tbody>
         </table>
       </div>
