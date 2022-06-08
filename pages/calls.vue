@@ -1,15 +1,25 @@
 <template>
   <div class="container">
     <h1>
-      Calls for talks, demonstrations, lightning talks and session proposals
-      (draft)
+      Calls for talks, demonstrations, lightning talks, posters and session
+      proposals
     </h1>
 
     <p>
       The organizing committee invites submissions for talks, demonstrations,
       and session proposals for the Brightcon 2022 conference that will be held
-      on September 28 & 29 in Esch-sur-Alzette, Luxembourg. The deadline for
-      proposals is XXX, and the program will be finalized on XXX.
+      on September 28 & 29 2022 in Esch-sur-Alzette, Luxembourg. The deadline
+      for session proposals is August 31 2022, and the program will be finalized
+      on September 5 2022.
+    </p>
+
+    <p>
+      <i
+        >Accepted talks, demonstrations, lightning talks, posters and session
+        proposals must have a registered author before September 1st 2022,
+        otherwise, the organizing committee reserves the right to withdraw the
+        presentation from the programme.
+      </i>
     </p>
 
     <h2>Important Dates</h2>
@@ -26,8 +36,13 @@
     </ul>
     <h3>Lightning talks</h3>
     <ul>
-      <li>📅 Talk submission deadline: TBD</li>
-      <li>📅 Notification of Acceptance for Talks:</li>
+      <li>📅 Lightning Talk submission deadline: September 15 2022</li>
+      <li>📅 Notification of Acceptance for Talks: September 16 2022</li>
+    </ul>
+    <h3>Posters</h3>
+    <ul>
+      <li>📅 Poster submission deadline: July 15 2022</li>
+      <li>📅 Notification of Acceptance for Posters: August 12 2022</li>
     </ul>
     <h3>Session proposals</h3>
     <ul>
@@ -35,7 +50,7 @@
       <li>📅 Notification of Acceptance for Talks: TBD</li>
     </ul>
 
-    <h1>Talks</h1>
+    <h2>Talks</h2>
     <p>
       Talks at Brightcon must be about open source software or data sources for
       industrial ecology or sustainability assessment. Talks will be 15-20
@@ -126,16 +141,15 @@
       <li>Open data and science in MFA</li>
     </ul>
 
-    <h1>Demonstrations</h1>
+    <h2>Demonstrations</h2>
     <p>
-      When some Sierra Nevada Pale Ale of a Bacardi Silver is unwisely false,
-      the tooled Jamaica Red Ale graduates from the pathetic Hefeweizen.
-      Furthermore, a Home brew of the Keystone light hibernates, and the Long
-      Trail Ale goes deep sea fishing with the Dixie Beer toward a Christmas
-      Ale.
+      Come an show what you have achieved with brightway and your programming
+      skills.
     </p>
+    <h2>Posters</h2>
+    <p>Get feedback by presenting your work with a poster.</p>
 
-    <h1>Lightning talks</h1>
+    <h2>Lightning talks</h2>
     <p>
       Lightning talks will be Pecha Kucha presentations (slides change
       automatically every 20 seconds) of five minutes each. We invite
@@ -144,7 +158,7 @@
       sustainability tools, open data for sustainability.
     </p>
 
-    <h1>Session proposals</h1>
+    <h2>Session proposals</h2>
     <p>
       The draft schedule has a 1-hour slot for a special session. Additional
       special sessions can be added for high quality proposals. A special
@@ -158,10 +172,10 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue' 
+import Vue from 'vue'
 export default Vue.extend({
   head: {
     title: `Calls - Brightcon 2022`,
-  }
-});
+  },
+})
 </script>

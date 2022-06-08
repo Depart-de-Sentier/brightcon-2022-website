@@ -118,7 +118,7 @@ export default Vue.extend({
             },
             {
               time: '16:00-17:00',
-              title: 'Interactive session TBD',
+              title: 'Poster / Interactive session TBD',
               keynote: false,
             },
 
