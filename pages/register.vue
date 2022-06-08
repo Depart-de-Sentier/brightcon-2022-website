@@ -16,8 +16,13 @@
       <h1 class="title">Registration</h1>
       <p>
         Brightcon 2022 has 2 registration fees. One to attend the Classes +
-        Conference, and one to attend the Conference only. All registrations
-        include the participation to the Conference and the Hackathon.
+        Conference, and one to attend the Conference only.
+      </p>
+      <p>
+        <b
+          >All registrations include the participation to the Conference and the
+          Hackathon.</b
+        >
       </p>
       <p>
         Please take a look at the
@@ -34,7 +39,7 @@
         </tr>
         <tr>
           <td>September 26 - September 30</td>
-          <td>€</td>
+          <td>400€</td>
         </tr>
       </table>
       <h3>Conference only</h3>
@@ -45,7 +50,7 @@
         </tr>
         <tr>
           <td>September 28 - September 30</td>
-          <td>€</td>
+          <td>220€</td>
         </tr>
       </table>
     </div>
@@ -53,10 +58,10 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue' 
+import Vue from 'vue'
 export default Vue.extend({
   head: {
     title: `Register - Brightcon 2022`,
-  }
-});
+  },
+})
 </script>
