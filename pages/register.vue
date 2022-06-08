@@ -1,17 +1,5 @@
 <template>
   <div>
-    <div class="bg-error">
-      <div class="container">
-        <div class="row col is-horizontal-align is-vertical-align">
-          <p>
-            Registration will open in June. To stay updated on this annual
-            conference, subscribe to our
-            <a href="https://brightway.groups.io/g/brightcon"> mailing list </a
-            >.
-          </p>
-        </div>
-      </div>
-    </div>
     <div class="container">
       <h1 class="title">Registration</h1>
       <p>
@@ -24,6 +12,17 @@
           Hackathon.</b
         >
       </p>
+      <div>
+        <div class="container">
+          <div class="row col is-horizontal-align is-vertical-align">
+            <a
+              href="https://list.ungerboeck.com/PROD/emc00/register.aspx?OrgCode=10&EvtID=5848&AppCode=REG&CC=122052403651"
+              class="button primary"
+              >Register here</a
+            >
+          </div>
+        </div>
+      </div>
       <p>
         Please take a look at the
         <nuxt-link to="/programme">Programme</nuxt-link> for more details on the
