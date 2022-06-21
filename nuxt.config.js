@@ -23,6 +23,16 @@ export default {
         property: 'og:image',
         content: '/images/banner-linkedin.png',
       },
+      {
+	      hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+	      hid: 'twitter:image',
+        property: 'twitter:image',
+        content: '/images/2022-brightcon-banner-twitter.png',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
