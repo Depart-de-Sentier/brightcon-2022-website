@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'brightcon-2022',
+    title: 'Brightcon 2022',
     htmlAttrs: {
       lang: 'en',
     },
@@ -24,14 +24,19 @@ export default {
         content: '/images/banner-linkedin.png',
       },
       {
-	      hid: 'twitter:card',
+        hid: 'twitter:card',
         property: 'twitter:card',
         content: 'summary_large_image',
       },
       {
-	      hid: 'twitter:image',
+        hid: 'twitter:image',
         property: 'twitter:image',
         content: '/images/2022-brightcon-banner-twitter.png',
+      },
+      {
+        hid: 'twitter:title',
+        property: 'twitter:title',
+        content: 'Brightcon 2022',
       },
     ],
     link: [

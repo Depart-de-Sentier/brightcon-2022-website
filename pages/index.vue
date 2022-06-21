@@ -15,7 +15,7 @@
 import Vue from 'vue'
 export default Vue.extend({
     head: {
-        title: "Welcome - Brightcon 2022",
+        title: "Brightcon 2022",
     }
 });
 </script>
