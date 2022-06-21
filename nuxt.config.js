@@ -31,7 +31,7 @@ export default {
       {
         hid: 'twitter:image',
         property: 'twitter:image',
-        content: '/images/2022-brightcon-banner-twitter.png',
+        content: 'https://2022.brightcon.link/images/2022-brightcon-banner-twitter.png',
       },
       {
         hid: 'twitter:title',
