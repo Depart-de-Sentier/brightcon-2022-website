@@ -22,6 +22,14 @@
       </i>
     </p>
 
+    <div class="row col is-horizontal-align is-vertical-align">
+      <a
+        href="https://brightcon2022.sciencesconf.org/submission/submit"
+        class="button primary"
+        >Submit here</a
+      >
+    </div>
+
     <h2>Important Dates</h2>
 
     <h3>Talks</h3>
