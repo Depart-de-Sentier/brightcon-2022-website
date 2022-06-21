@@ -12,16 +12,12 @@
           Hackathon.</b
         >
       </p>
-      <div>
-        <div class="container">
-          <div class="row col is-horizontal-align is-vertical-align">
-            <a
-              href="https://list.ungerboeck.com/PROD/emc00/register.aspx?OrgCode=10&EvtID=5848&AppCode=REG&CC=122052403651"
-              class="button primary"
-              >Register here</a
-            >
-          </div>
-        </div>
+      <div class="row col is-horizontal-align is-vertical-align">
+        <a
+          href="https://list.ungerboeck.com/PROD/emc00/register.aspx?OrgCode=10&EvtID=5848&AppCode=REG&CC=122052403651"
+          class="button primary"
+          >Register here</a
+        >
       </div>
       <p>
         Please take a look at the

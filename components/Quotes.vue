@@ -130,16 +130,16 @@ export default Vue.extend({
 
 <style scoped>
 #Github {
-  fill: white;
+  fill: var(--font-color);
 }
 #Github:hover {
-  fill: var(--dark);
+  fill: var(--color-darkGrey);
 }
 #Linkedin {
-  fill: white;
+  fill: var(--font-color);
 }
 #Linkedin:hover {
-  fill: var(--dark);
+  fill: var(--color-darkGrey);
 }
 
 .card {
