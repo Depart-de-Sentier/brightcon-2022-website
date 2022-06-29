@@ -73,6 +73,7 @@ export default Vue.extend({
                     imageSrc: "/images/sponsors/Logo_RTE+signCompactD_4c.jpg",
                     imageAlt: "Logo Réseau de Transport d'Electricité (RTE)"
                 },
+
             ],
             goldSponsors: [
             ],

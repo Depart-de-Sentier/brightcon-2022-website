@@ -161,7 +161,7 @@ export default Vue.extend({
   max-height: 64px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid #cec5c5;
+  border: 1px solid #e8eaee;
 }
 .detbox {
   display: flex;

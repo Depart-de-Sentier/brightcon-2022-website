@@ -1,5 +1,5 @@
 <template>
-  <div class="background">
+  <div>
     <div class="container">
       <div class="row is-vertical-align is-horizontal-align hero">
         <div class="col">
