@@ -42,6 +42,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: '/chota.min.css' },
+      { rel: 'stylesheet', href: '/fonts/roboto.css'}
     ],
   },
 

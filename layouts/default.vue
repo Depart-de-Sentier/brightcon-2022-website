@@ -10,6 +10,8 @@
 </template>
 <style>
 :root {
+  -font-family-mono: "Roboto" sans-serif;
+  --font-family-mono: "Roboto", monaco, "Consolas", "Lucida Console", monospace;
   --color-error: #ffcc00;
   /* BW2 */
   /* --color-primary: rgb(104, 187, 179); */
