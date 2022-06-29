@@ -6,6 +6,8 @@
 
     <WhatIsBrightcon />
     <Novelties />
+    
+    <OurSponsors />
     <KeynoteSpeakers />
     <Testimonials />
     <PreviousConferences />
@@ -16,6 +18,6 @@ import Vue from 'vue'
 export default Vue.extend({
     head: {
         title: "Brightcon 2022",
-    }
+    },
 });
 </script>

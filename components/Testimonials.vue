@@ -40,7 +40,16 @@ export default Vue.extend({
             'The hackathon of Brightcon 2021 allowed Valentin Starlinger to write a python package that can be used to import data from openLCA into brightway.',
           imgUrl: '/images/BW_clear_with_background.png',
           reviewMore: 'https://github.com/brightway-lca/brightway-olca'
-        }
+        },
+        {
+          name: 'Valentin Starlinger',
+          designation: '2.-0 LCA Consultants',
+          reviewTitle:
+            'It was my first time participating last year and I very much enjoyed it! I met a lot of wonderful people, some of which I am still in regular contact with now. I also got the opportunity to participate in the hackathon, where I helped create a package to import data from openLCA.',
+          imgUrl: '/images/participants/ValentinStarlinger.gif',
+          linkedIn: 'https://www.linkedin.com/in/vstarlinger/',
+          github: 'https://github.com/vstarlinger'
+        },
       ]
     }
   }

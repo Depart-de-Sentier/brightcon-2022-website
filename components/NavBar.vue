@@ -39,7 +39,7 @@
           class="button clear"
           active-class="active"
         >
-          Sponsors
+          Become a sponsor
         </nuxt-link>
         <nuxt-link to="/register" acitve-class="active" class="button primary">
           Register
@@ -60,7 +60,7 @@
             class="button clear"
             active-class="active"
           >
-            Sponsors
+            Become a sponsor
           </nuxt-link>
           <nuxt-link
             to="/venue"

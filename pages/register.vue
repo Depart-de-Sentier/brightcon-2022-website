@@ -49,6 +49,8 @@
         </tr>
       </table>
     </div>
+
+    <our-sponsors/>
   </div>
 </template>
 
