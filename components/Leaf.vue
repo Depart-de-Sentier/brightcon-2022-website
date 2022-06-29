@@ -674,27 +674,6 @@
 </svg>
 </template>
 
-<!-- <script>
-import Vue from 'vue'
- export default Vue.extend({
-  mounted() {
-    // launch interval function
-    setInterval(
-      () => {
-        console.log("change value every second ")
-        Array.from(document.getElementsByClassName('veins'))
-        .forEach(
-          elem => {
-            elem.setAttribute('stroke', "red")
-          }
-        )
-      },
-      10000
-    )
-  }
- }) 
-</script> -->
-
 <style @scoped>
 .veins {
   fill:none;
@@ -706,12 +685,8 @@ import Vue from 'vue'
   stroke-dasharray:none;
   stroke-opacity:1;
   opacity: 1;
+  transition: stroke 2s ease-in-out;
 }
-/* 
-.veins:hover {
-  stroke: red;
-  opacity: 1;
-} */
 
 .half-leaf {
   fill:none;
@@ -723,28 +698,12 @@ import Vue from 'vue'
   stroke-dasharray:none;
   stroke-opacity:1;
   opacity: 1;
-}/* 
-.half-leaf:hover {
-  stroke: red;
-  opacity: 1;
-} */
-
+}
 .stem {
    fill:#57c5ab;
    fill-opacity:1;
    fill-rule:nonzero;
    stroke:none;
    opacity: 1;
-}/* 
-.stem:hover {
-   stroke-opacity:1;
-   fill: red;
-   opacity: 1;
-} */
-
-.locate {
-  stroke: red !important;
-  fill: red !important;
 }
-
 </style>
