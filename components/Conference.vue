@@ -97,7 +97,7 @@ export default Vue.extend({
             {
               time: '13:30-14:15',
               title: 'GSA Framework',
-              presenters: 'Sasha Kim',
+              presenters: 'Aleksandra (Sasha) Kim',
               keynote: true,
             },
             {
