@@ -21,7 +21,7 @@
 <script>
 import Vue from 'vue'
 export default Vue.extend({
-  data () {
+  data() {
     return {
       quotes: [
         {
@@ -31,7 +31,7 @@ export default Vue.extend({
             'Brightcon is the best place to meet fellow open source LCA enthusiasts and to learn about current developments in LCA software, data and methods.',
           imgUrl: '/images/participants/BenPortner.jpg',
           linkedIn: 'https://www.linkedin.com/in/benjamin-w-portner/',
-          github: 'https://github.com/BenPortner'
+          github: 'https://github.com/BenPortner',
         },
         {
           name: 'Brightcon organizers',
@@ -39,7 +39,7 @@ export default Vue.extend({
           reviewTitle:
             'The hackathon of Brightcon 2021 allowed Valentin Starlinger to write a python package that can be used to import data from openLCA into brightway.',
           imgUrl: '/images/BW_clear_with_background.png',
-          reviewMore: 'https://github.com/brightway-lca/brightway-olca'
+          reviewMore: 'https://github.com/brightway-lca/brightway-olca',
         },
         {
           name: 'Valentin Starlinger',
@@ -48,11 +48,20 @@ export default Vue.extend({
             'It was my first time participating last year and I very much enjoyed it! I met a lot of wonderful people, some of which I am still in regular contact with now. I also got the opportunity to participate in the hackathon, where I helped create a package to import data from openLCA.',
           imgUrl: '/images/participants/ValentinStarlinger.gif',
           linkedIn: 'https://www.linkedin.com/in/vstarlinger/',
-          github: 'https://github.com/vstarlinger'
+          github: 'https://github.com/vstarlinger',
         },
-      ]
+        {
+          name: 'Brenda Miranda Xicotencatl',
+          designation:
+            'PhD candidate at the Institute of Environmental Sciences of Leiden University (CML)',
+          reviewTitle:
+            'It was a refreshing immersion in projects enabling research on sustainability. In a short time, I discovered new tools and new ways to use Brightway. This environment opens possibilities for open science and collaboration.',
+          imgUrl: '/images/participants/brenda-miranda-xicotencatl.jpg',
+          linkedIn: 'https://www.linkedin.com/in/bmirandax/',
+        },
+      ],
     }
-  }
+  },
 })
 </script>
 
