@@ -7,7 +7,8 @@
         <div class="row">
           <div class="col is-horizontal-align">
             <a href="https://www.d-d-s.ch/">
-              <img
+              <nuxt-img
+                format="webp"
                 class="logo-img"
                 src="/images/dds-logo.png"
                 alt="Départ de Sentier (DdS)"
@@ -16,7 +17,8 @@
           </div>
           <div class="col is-horizontal-align">
             <a href="https://www.list.lu/">
-              <img
+              <nuxt-img
+                format="webp"
                 class="logo-img"
                 src="/images/LIST-logo.jpg"
                 alt="Luxembourg Institute of Science and Techonology (LIST)"

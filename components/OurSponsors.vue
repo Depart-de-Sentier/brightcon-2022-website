@@ -12,7 +12,8 @@
                 class="col-4-md card-container"
             >
                 <a :href="s.url" target="_blank">
-                    <img
+                    <nuxt-img
+                        format="webp"
                         :src="s.imageSrc"
                         :alt="s.imageAlt"
                     />
@@ -30,7 +31,8 @@
                 class="col-3-md card-container"
             >
                 <a :href="s.url" target="_blank">
-                    <img
+                    <nuxt-img
+                        format="webp"
                         :src="s.imageSrc"
                         :alt="s.imageAlt"
                     />
@@ -48,7 +50,8 @@
                 class="col-2-md card-container"
             >
                 <a :href="s.url" target="_blank">
-                    <img
+                    <nuxt-img
+                        format="webp"
                         :src="s.imageSrc"
                         :alt="s.imageAlt"
                     />

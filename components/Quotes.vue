@@ -2,7 +2,7 @@
   <div :class="`card ${isGreen ? 'bg-primary' : '' }`">
     <div class="userdetails">
       <div class="imgbox">
-        <img :src="imgUrl" alt="">
+        <nuxt-img :src="imgUrl" alt="" format="webp" fit="cover" width="64" height="64"/>
       </div>
       <div class="detbox">
         <p :class="`name ${isGreen ? 'text-white' : '' }`">
