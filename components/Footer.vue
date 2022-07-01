@@ -35,7 +35,8 @@
           <a href="https://www.list.lu"
             >Luxembourg Institute of Science and Technology</a
           >
-          | Contact Us | <nuxt-link to="/legal"> Legal Info </nuxt-link>
+          | Contact Us | <nuxt-link to="/legal"> Legal Info </nuxt-link> |
+          <nuxt-link to="/code-of-conduct"> Code of Conduct </nuxt-link>
         </div>
       </div>
     </div>
