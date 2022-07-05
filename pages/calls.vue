@@ -161,7 +161,7 @@
     <p>
       Lightning talks will be Pecha Kucha presentations (slides change
       automatically every 20 seconds) of five minutes each. We invite
-      presentations on all subjects on interest to our community. Subjects
+      presentations on all subjects of interest to our community. Subjects
       include, but are not limited to: computational sustainability, open source
       sustainability tools, open data for sustainability.
     </p>
