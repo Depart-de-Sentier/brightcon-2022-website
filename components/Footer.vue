@@ -26,6 +26,17 @@
             </a>
           </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <h3>Organizing comitee</h3>
+
+            <ul>
+              <li>Chris Mutel</li>
+              <li>Karin Treyer</li>
+              <li>Tom&aacute;s Navarrete Guti&eacute;rrez</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <div class="bg-dark text-light">
