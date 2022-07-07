@@ -3,7 +3,7 @@
     <div>
       <div class="container">
         <hr />
-        <p class="center">Brightcon 2022 is being jointly organized by:</p>
+        <h4 class="center">Brightcon 2022 is being jointly organized by:</h4>
         <div class="row">
           <div class="col is-horizontal-align">
             <a href="https://www.d-d-s.ch/">
@@ -26,15 +26,30 @@
             </a>
           </div>
         </div>
-        <div class="row">
+        
+        <div class="text-center">
+          <h4>Organizing committee:</h4>
+        </div>
+        
+        <div class="row text-center">
           <div class="col">
-            <h3>Organizing comitee</h3>
-
-            <ul>
-              <li>Chris Mutel</li>
-              <li>Karin Treyer</li>
-              <li>Tom&aacute;s Navarrete Guti&eacute;rrez</li>
-            </ul>
+             Chris Mutel
+             <br>
+             <a href="https://github.com/cmutel" rel="noopener" target="__blank"> <github-icon /> </a>
+             <a href="https://www.linkedin.com/in/christopher-mutel-61b263b2" rel="noopener" target="__blank"> <linked-in-icon /> </a>
+          </div>
+          <div class="col">
+            Karin Treyer
+            <br>
+            <a href="https://github.com/KarinTreyer" rel="noopener" target="__blank"> <github-icon /> </a>
+            <a href="https://www.linkedin.com/in/karintreyer0777" rel="noopener" target="__blank"> <linked-in-icon /> </a>
+          </div>
+          <div class="col">  
+            Tom&aacute;s Navarrete Guti&eacute;rrez
+            <br>
+            <a href="https://github.com/tngTUDOR" rel="noopener" target="__blank"> <github-icon /> </a>
+            <a href="https://www.linkedin.com/in/tom4m3" rel="noopener" target="__blank"> <linked-in-icon /> </a>
+            <a href="https://twitter.com/tomasN_list?t=l00iN9miHddObV3Ljy8m2A&s=09" rel="noopener" target="__blank"> <twitter-icon /> </a>
           </div>
         </div>
       </div>
@@ -54,7 +69,7 @@
   </footer>
 </template>
 
-<style>
+<style @scoped>
 /* footer {
     position: fixed;
     width: 100%;
