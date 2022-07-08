@@ -81,6 +81,11 @@ export default Vue.extend({
             goldSponsors: [
             ],
             nickelSponsors: [
+                {
+                    url: 'https://www.cauldron.ch/',
+                    imageSrc: "/images/sponsors/Cauldron logo cropped.jpg",
+                    imageAlt:"Logo Cauldron"
+                }
             ]
         }
     }
