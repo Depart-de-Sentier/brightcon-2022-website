@@ -76,6 +76,11 @@ export default Vue.extend({
                     imageSrc: "/images/sponsors/Logo_RTE+signCompactD_4c.jpg",
                     imageAlt: "Logo Réseau de Transport d'Electricité (RTE)"
                 },
+                {
+                    url: 'https://www.circulartree.com/',
+                    imageSrc: "/images/sponsors/thumbnail_CircularTree Vertical-Vector-White square-40w.png",
+                    imageAlt: "Logo CircularTree"
+                },
 
             ],
             goldSponsors: [
