@@ -127,22 +127,16 @@ export default Vue.extend({
               title: 'Conference cocktail drink',
               keynote: false,
             },
-            {
-              time: '19:00-19:30',
-              title: "Keynote: What I don't like about Brightway",
-              presenters: 'Michael Srocka',
-              keynote: true,
-            },
           ],
         },
         {
           date: 'Thursday, Sept. 29',
           sessions: [
             {
-              time: '9:00-9:30',
-              title: 'Keynote: Democratizing environmental data',
-              presenters: 'Sensor.community (TBC)',
-              keynote: false,
+              time: '09:00-09:30',
+              title: "Keynote: Open LCA software advances.",
+              presenters: 'Michael Srocka',
+              keynote: true,
             },
             {
               time: '9:30-10:15',
