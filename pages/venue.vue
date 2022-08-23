@@ -5,6 +5,30 @@
     Brightcon 2022 will take place in the
     <a href="https://www.belval.lu/en/">Belval campus</a> of Esch-sur-Alzette,
     Luxembourg.
+    <h3>Classes location</h3>
+    The classes of Sept. 26-27, will be held on the Belvaux building of LIST,
+    <b>rooms F011-A and F011-B</b>:
+    <p>41 rue du Brill, L-4422 Belvaux, Tel. : +352 275 888 1</p>
+    <a
+      href="https://www.list.lu/fileadmin/files/2022_ACCESS_MAP_BELVAL_BELVAUX_EN.pdf"
+    >
+      Access map (Look for 3 Belvaux site)
+    </a>
+    <h3>Conference location</h3>
+    The conference of Sept. 28-29 will be held on:
+    <p>
+      Batiment admnistratif Fonds de belval , 1 Av. du Rock'n'Roll , 4361
+      Esch-sur-Alzette
+    </p>
+    <h3>Hackathon location</h3>
+    The hackathon of Sept. 29-30, will be held on the Belvaux building of LIST,
+    <b>rooms F011-A and F011-B</b>:
+    <p>41 rue du Brill, L-4422 Belvaux, Tel. : +352 275 888 1</p>
+    <a
+      href="https://www.list.lu/fileadmin/files/2022_ACCESS_MAP_BELVAL_BELVAUX_EN.pdf"
+    >
+      Access map (Look for 3 Belvaux site)
+    </a>
     <h3>How to reach Luxembourg</h3>
     <ul>
       <li>
@@ -54,7 +78,7 @@
     We have booked a number of rooms in several hotels. Please note that the
     room availability is guaranteed for a limited period. We strongly suggest
     booking your stay as soon as possible.
-    
+
     <h3>Hotels with options</h3>
 
     <div class="row is-horizontal-align">
@@ -63,66 +87,55 @@
         :key="i"
         class="col-6-md card hotel-card"
       >
-          <h4 class="header">
-            <a
-              :href="hotel.websiteUrl"
-              
-            >
-              {{hotel.name}}
-            </a>
-          </h4>
+        <h4 class="header">
+          <a :href="hotel.websiteUrl">
+            {{ hotel.name }}
+          </a>
+        </h4>
+        <div>
+          <h5>Comment:</h5>
           <div>
-              <h5>
-                Comment:
-              </h5>
-            <div>
-                <p class="with-indent">{{hotel.comment}}</p>
-            </div>
+            <p class="with-indent">{{ hotel.comment }}</p>
           </div>
+        </div>
+        <div>
+          <h5>Prices:</h5>
           <div>
-              <h5>
-                Prices:
-              </h5>
-            <div>
-                <p class="with-indent">{{hotel.price}}</p>
-            </div>
+            <p class="with-indent">{{ hotel.price }}</p>
           </div>
+        </div>
 
+        <div>
+          <h5>Contact:</h5>
           <div>
-              <h5>
-                Contact:
-              </h5>
-            <div>
-                <p v-if="hotel.tel" class="with-indent">Tel: {{hotel.tel}}</p>
-                <p v-if="hotel.mail" class="with-indent">Mail: <a :href="`mailto:${hotel.mail}`">{{hotel.mail}}</a></p>
-            </div>
+            <p v-if="hotel.tel" class="with-indent">Tel: {{ hotel.tel }}</p>
+            <p v-if="hotel.mail" class="with-indent">
+              Mail: <a :href="`mailto:${hotel.mail}`">{{ hotel.mail }}</a>
+            </p>
           </div>
+        </div>
 
-          <div class="grow">
-          </div>
+        <div class="grow"></div>
+        <div>
+          <h5>Reservation:</h5>
           <div>
-              <h5>
-                Reservation:
-              </h5>
-            <div>
-                <p class="with-indent">
-                  {{ hotel.reservation }}
-                </p>
-                <div class="is-center">
-                  <nuxt-link
-                    :to="hotel.formUrl"
-                    target="_blank"
-                    rel="noopener"
-                    class="button outline primary"
-                  >
-                    Please use the enclosed form
-                  </nuxt-link>
-                </div>
+            <p class="with-indent">
+              {{ hotel.reservation }}
+            </p>
+            <div class="is-center">
+              <nuxt-link
+                :to="hotel.formUrl"
+                target="_blank"
+                rel="noopener"
+                class="button outline primary"
+              >
+                Please use the enclosed form
+              </nuxt-link>
             </div>
           </div>
         </div>
+      </div>
     </div>
-
 
     <h3>Other hotels without options</h3>
 
@@ -211,7 +224,6 @@
 </template>
 
 <script lang="ts">
-
 import Vue from 'vue'
 
 interface Hotel {
@@ -231,32 +243,34 @@ export default Vue.extend({
       hotels: [
         {
           name: 'IBIS Esch-Belval',
-          websiteUrl: 'https://all.accor.com/hotel/7071/index.fr.shtml?utm_term=mar&gclid=Cj0KCQjw-daUBhCIARIsALbkjSbTel61VKraL5IinXv1RPui8zPTg62vH8mChZ2gxhK0sFhpfGL9e-MaAsy2EALw_wcB&utm_campaign=ppc-ibi-mar-goo-be-fr-reg_top-mix-se&utm_medium=cpc&utm_content=be-fr-LU-V1243&utm_source=google',
+          websiteUrl:
+            'https://all.accor.com/hotel/7071/index.fr.shtml?utm_term=mar&gclid=Cj0KCQjw-daUBhCIARIsALbkjSbTel61VKraL5IinXv1RPui8zPTg62vH8mChZ2gxhK0sFhpfGL9e-MaAsy2EALw_wcB&utm_campaign=ppc-ibi-mar-goo-be-fr-reg_top-mix-se&utm_medium=cpc&utm_content=be-fr-LU-V1243&utm_source=google',
           comment: 'Near the station of Belval',
           adress: '12, avenue du Rock’n Roll (Belval) L-4361 Esch-sur-Alzette',
           price: '105 € /night (single room) | 120 €/night (double room)',
           tel: '(+352)261731',
           mail: 'H7071-BO@accor.com',
           reservation: '20 rooms in option until 24/08/2022',
-          formUrl: '/hotelforms/Reservation_Form_Ibis.pdf'
+          formUrl: '/hotelforms/Reservation_Form_Ibis.pdf',
         },
         {
           name: 'ResidHome Luxembourg Esch-Belval',
-          websiteUrl: 'https://www.myresidhome.com/esch-sur-alzette/residhome-luxembourg-esch-belval/apparthotel-residence-hoteliere.html?utm_source=adwords&utm_medium=content&utm_campaign=DSA_Gen_Ann3',
+          websiteUrl:
+            'https://www.myresidhome.com/esch-sur-alzette/residhome-luxembourg-esch-belval/apparthotel-residence-hoteliere.html?utm_source=adwords&utm_medium=content&utm_campaign=DSA_Gen_Ann3',
           comment: '5 minutes’ walk from the conference venue',
           adress: '3 Bd du Jazz (Belval) L-4370 Esch-sur-Alzette',
           price: '120 € (1 person with breakfast)',
           tel: '',
           mail: 'Luxembourg.eschbelval@residhome.com',
           reservation: '20 rooms in option until 24/08/2022',
-          formUrl: '/hotelforms/Bon_BRIGHTCON_2022.pdf'
+          formUrl: '/hotelforms/Bon_BRIGHTCON_2022.pdf',
         },
       ],
     }
   },
   head: {
     title: 'Venue - Brightcon 2022',
-  }
+  },
 })
 </script>
 <style>
