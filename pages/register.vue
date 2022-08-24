@@ -14,7 +14,7 @@
       </p>
       <div class="row col is-horizontal-align is-vertical-align">
         <a
-          href="https://list.ungerboeck.com/PROD/emc00/register.aspx?OrgCode=10&EvtID=5848&AppCode=REG&CC=122052403651"
+          href="https://list.ungerboeck.com/PROD/emc00/register.aspx?aat=kJaG1Hj5rZYDQu8RUPpf6Ws4yp54y1lL98umQHo9Jqg%3d"
           class="button primary"
           >Register here</a
         >
@@ -50,7 +50,7 @@
       </table>
     </div>
 
-    <our-sponsors/>
+    <our-sponsors />
   </div>
 </template>
 
