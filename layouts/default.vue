@@ -3,7 +3,8 @@
     <div class="leaf">
       <leaf></leaf>
     </div>
-    <NavBar />
+    <nav-menu v-model="menuIsActive"></nav-menu>
+    <NavBar :menu-button-callback="toggleMenu" />
     <main>
       <Nuxt />
     </main>
@@ -13,6 +14,24 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue'
+
+interface DataInterface {
+  menuIsActive: boolean
+}
+
+export default Vue.extend({
+  data(): DataInterface {
+    return {
+      menuIsActive: false
+    }
+  },
+  methods: {
+    toggleMenu() {
+      this.menuIsActive = !this.menuIsActive
+    }
+  }
+})
 </script>
 <style>
 :root {
@@ -44,6 +63,5 @@
   opacity: 0.1;
   position: fixed;
   z-index: -1;
-
 }
 </style>

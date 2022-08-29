@@ -54,6 +54,11 @@
         </div>
       </div>
     </div>
+    <div class="bg-light">
+      <div class="container">
+        <route-recap></route-recap>
+      </div>
+    </div>
     <div class="bg-dark text-light">
       <div class="container">
         <div class="center">
