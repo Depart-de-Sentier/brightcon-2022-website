@@ -81,6 +81,11 @@ export default Vue.extend({
                     imageSrc: "/images/sponsors/thumbnail_CircularTree Vertical-Vector-White square-40w.png",
                     imageAlt: "Logo CircularTree"
                 },
+                {
+                    url: 'https://www.sanofi.fr/',
+                    imageSrc: "/images/sponsors/sanofi_logo-704x324.png",
+                    imageAlt: "Logo Sanofi"
+                },
 
             ],
             goldSponsors: [
