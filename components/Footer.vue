@@ -2,7 +2,7 @@
   <footer>
     <div>
       <div class="container">
-        <hr />
+        <hr>
         <h4 class="center">Brightcon 2022 is being jointly organized by:</h4>
         <div class="row">
           <div class="col is-horizontal-align">

@@ -148,7 +148,7 @@ export default Vue.extend({
   font-weight: 600;
 }
 .detbox .designation {
-  opacity: 60%;
+  opacity: 0.6;
   /* font-size: 0.8rem; */
 }
 
