@@ -141,7 +141,7 @@ export default Vue.extend({
             {
               time: '9:30-10:15',
               title: 'Round Table: Semantic technologies in LCA',
-              presenter: 'Calin BOJE,',
+              presenters: 'Calin BOJE,',
               keynote: false,
             },
             {

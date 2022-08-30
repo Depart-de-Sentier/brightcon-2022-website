@@ -13,28 +13,28 @@ const routes = [
         name: 'Get involved',
         routes: [
             {
-                label: "calls",
+                label: "Calls",
                 url: "/calls"
             },
             {
-                label: "sponsors",
+                label: "Sponsors",
                 url: "/sponsors"
             },
         ]
     },
     {
-        name: 'Programme',
+        name: 'This year',
         routes: [
             {
-                label: "programme",
+                label: "Programme",
                 url: "/programme"
             },
             {
-                label: "whats new in 2022",
-                url: "/whatsnewin2022"
+                label: "Whats new in 2022",
+                url: "/whats-new-in-2022"
             },
             {
-                label: "speakers",
+                label: "Speakers",
                 url: "/speakers"
             },
         ]
@@ -43,12 +43,34 @@ const routes = [
         name: 'Participate',
         routes: [
             {
-                label: "register",
+                label: "Register",
                 url: "/register"
             },
             {
-                label: "venue",
+                label: "Venue",
                 url: "/venue"
+            },
+        ]
+    },
+    {
+        name: 'Hackathon',
+        routes: [
+            {
+                label: "Details",
+                url: "/hackathon"
+            },
+        ]
+    },
+    {
+        name: 'Contest',
+        routes: [
+            {
+                label: "Call for contest",
+                url: "/call-for-contest"
+            },
+            {
+                label: "Results",
+                url: "/contest-results"
             },
         ]
     },
@@ -56,11 +78,11 @@ const routes = [
         name: 'Legal',
         routes: [
             {
-                label: "code-of-conduct",
+                label: "Code of conduct",
                 url: "/code-of-conduct"
             },
             {
-                label: "legal",
+                label: "Legal",
                 url: "/legal"
             },
         ]
