@@ -134,13 +134,14 @@ export default Vue.extend({
           sessions: [
             {
               time: '09:00-09:30',
-              title: "Keynote: Open LCA software advances.",
+              title: 'Keynote: Open LCA software advances.',
               presenters: 'Michael Srocka',
               keynote: true,
             },
             {
               time: '9:30-10:15',
               title: 'Round Table: Semantic technologies in LCA',
+              presenter: 'Calin BOJE,',
               keynote: false,
             },
             {
