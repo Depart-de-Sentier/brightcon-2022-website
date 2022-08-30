@@ -26,12 +26,12 @@ const routes = [
         name: 'Programme',
         routes: [
             {
-                label: "whatsnewin2022",
-                url: "/whatsnewin2022"
-            },
-            {
                 label: "programme",
                 url: "/programme"
+            },
+            {
+                label: "whats new in 2022",
+                url: "/whatsnewin2022"
             },
             {
                 label: "speakers",
