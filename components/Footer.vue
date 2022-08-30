@@ -58,7 +58,7 @@
       <div class="container with-padding-top with-padding-bottom">
         <route-recap></route-recap>
       </div>
-      <div class="container with-padding-bottom">
+      <div class="with-padding-bottom">
         <div class="text-center">
           ©2022 <a href="https://www.d-d-s.ch/">Départ de Sentier</a>,
           <a href="https://www.list.lu"
