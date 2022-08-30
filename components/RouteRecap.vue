@@ -6,7 +6,7 @@
         class="col"
     >
         <div>
-            {{ g.name }}:
+            <b>{{ g.name }}:</b>
             <br>
             <div v-for="(r, rindex) in g.routes" :key="rindex">
                 - <nuxt-link

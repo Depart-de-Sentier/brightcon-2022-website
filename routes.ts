@@ -5,7 +5,6 @@ interface Route {
 
 export interface RouteGroup {
     name: string
-    url?: string
     routes: Route[]
 }
 
@@ -25,11 +24,14 @@ const routes = [
     },
     {
         name: 'Programme',
-        url: '/programme',
         routes: [
             {
                 label: "whatsnewin2022",
                 url: "/whatsnewin2022"
+            },
+            {
+                label: "programme",
+                url: "/programme"
             },
             {
                 label: "speakers",

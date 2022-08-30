@@ -3,7 +3,7 @@
     <div>
       <div class="container">
         <hr>
-        <h4 class="center">Brightcon 2022 is being jointly organized by:</h4>
+        <b>Brightcon 2022 is being jointly organized by:</b>
         <div class="row">
           <div class="col is-horizontal-align">
             <a href="https://www.d-d-s.ch/">
@@ -27,8 +27,8 @@
           </div>
         </div>
         
-        <div class="text-center">
-          <h4>Organizing committee:</h4>
+        <div>
+          <b>Organizing committee:</b>
         </div>
         
         <div class="row text-center">
@@ -55,13 +55,11 @@
       </div>
     </div>
     <div class="bg-light">
-      <div class="container">
+      <div class="container with-padding-top with-padding-bottom">
         <route-recap></route-recap>
       </div>
-    </div>
-    <div class="bg-dark text-light">
-      <div class="container">
-        <div class="center">
+      <div class="container with-padding-bottom">
+        <div class="text-center">
           ©2022 <a href="https://www.d-d-s.ch/">Départ de Sentier</a>,
           <a href="https://www.list.lu"
             >Luxembourg Institute of Science and Technology</a
@@ -80,8 +78,11 @@
     width: 100%;
     bottom: 0;
 } */
-.center {
-  text-align: center;
+.with-padding-top {
+  padding-top: 2em;
+}
+.with-padding-bottom {
+  padding-bottom: 1em;
 }
 .logo-img {
   height: 84px;

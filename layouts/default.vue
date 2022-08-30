@@ -1,16 +1,18 @@
 <template>
+<div>
+  <NavBar :menu-button-callback="toggleMenu" />
   <div class="main-container">
     <div class="leaf">
       <leaf></leaf>
     </div>
     <nav-menu v-model="menuIsActive"></nav-menu>
-    <NavBar :menu-button-callback="toggleMenu" />
     <main>
       <Nuxt />
     </main>
     <div class="spacer" />
     <Footer class="footer" />
   </div>
+</div>
 </template>
 
 <script lang="ts">

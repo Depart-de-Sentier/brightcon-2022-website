@@ -1,38 +1,38 @@
 <template>
 <div class="overlay-container">
     <Transition name="fade">
-        <div  v-if="value" class="overlay is-vertical-align">
-            <div class="container bg-white">
-                <div class="is-right" @click="toggleMenu">
+        <div v-if="value" class="overlay">
+            <div class="bg-white">
+                <!-- <div class="is-right" @click="toggleMenu">
                     <close-icon />
-                </div>
+                </div> -->
 
-                <div class="col">
-                    <div
-                        v-for="(g, index) in routesGroup"
-                        :key="index"
-                        class="col"
-                    >
-                        <div>
-                            <nuxt-link v-if="g.url" :to="g.url"  @click.native="toggleMenu">
-                                {{ g.name }}:
-                            </nuxt-link>
-                            <b v-else>
-                                {{ g.name }}:
-                            </b>
-                            <br>
-                            <div v-for="(r, rindex) in g.routes" :key="rindex">
-                                - <nuxt-link
-                                    :to="r.url"
-                                    @click.native="toggleMenu"
-                                >
-                                    {{r.label}}
-                                </nuxt-link>
-
+                <div class="container">
+                    <div class="row">
+                        <div
+                            v-for="(g, index) in routesGroup"
+                            :key="index"
+                            class="col"
+                        >
+                            <div>
+                                <b>
+                                    {{ g.name }}:
+                                </b>
+                                <br>
+                                <div v-for="(r, rindex) in g.routes" :key="rindex">
+                                    - <nuxt-link
+                                        :to="r.url"
+                                        @click.native="toggleMenu"
+                                    >
+                                        {{r.label}}
+                                    </nuxt-link>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="dark-zone" @click="toggleMenu">
             </div>
         </div>
     </Transition>
@@ -72,6 +72,10 @@ export default Vue.extend({
 </script>
 
 <style>
+.dark-zone {
+    height: 100%;
+    width: 100%;
+}
 .fade-enter-active, .fade-leave-active {
   transition: opacity 0.5s ease;
 }
