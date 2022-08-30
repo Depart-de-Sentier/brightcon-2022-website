@@ -140,7 +140,7 @@ export default Vue.extend({
             },
             {
               time: '9:30-10:15',
-              title: 'Open data and science in MFA',
+              title: 'Round Table: Semantic technologies in LCA',
               keynote: false,
             },
             {
