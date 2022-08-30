@@ -11,7 +11,6 @@
             <div v-for="(r, rindex) in g.routes" :key="rindex">
                 - <nuxt-link
                     :to="r.url"
-                    @click.native="toggleMenu"
                 >
                     {{r.label}}
                 </nuxt-link>

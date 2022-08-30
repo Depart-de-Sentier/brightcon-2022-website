@@ -5,7 +5,7 @@
 
     <div v-if="palladiumSponsors.length > 0">
         <h2>Palladium</h2>
-        <div class="row is-vertical-align is-horizontal-align">
+        <div class="row is-vertical-align is-horizontal-align bg-white with-padding">
             <div
                 v-for="s, index in palladiumSponsors"
                 :key="index"
@@ -24,7 +24,7 @@
 
     <div v-if="goldSponsors.length > 0">
         <h2>Gold</h2>
-        <div class="row is-vertical-align is-horizontal-align">
+        <div class="row is-vertical-align is-horizontal-align bg-white with-padding">
             <div
                 v-for="s, index in goldSponsors"
                 :key="index"
@@ -43,7 +43,7 @@
 
     <div v-if="nickelSponsors.length > 0">
         <h2>Nickel</h2>
-        <div class="row is-vertical-align is-horizontal-align">
+        <div class="row is-vertical-align is-horizontal-align bg-white with-padding">
             <div
                 v-for="s, index in nickelSponsors"
                 :key="index"
@@ -83,7 +83,7 @@ export default Vue.extend({
                 },
                 {
                     url: 'https://www.sanofi.fr/',
-                    imageSrc: "/images/sponsors/sanofi_logo-704x324.png",
+                    imageSrc: "/images/sponsors/sanofi_logo.png",
                     imageAlt: "Logo Sanofi"
                 },
 
@@ -104,6 +104,10 @@ export default Vue.extend({
 <style scoped> 
 .background {
     background-color: #ebf8f6;
+    padding: 2em;
+}
+.with-padding {
+    padding: 1em;
 }
 .row {
     justify-content: space-around;

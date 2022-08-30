@@ -1,41 +1,41 @@
 <template>
 <div class="overlay-container">
     <Transition name="fade">
-    <div  v-if="value" class="overlay is-vertical-align">
-        <div class="container bg-white">
-            <div class="is-right" @click="toggleMenu">
-                <close-icon />
-            </div>
+        <div  v-if="value" class="overlay is-vertical-align">
+            <div class="container bg-white">
+                <div class="is-right" @click="toggleMenu">
+                    <close-icon />
+                </div>
 
-            <div class="col">
-                <div
-                    v-for="(g, index) in routesGroup"
-                    :key="index"
-                    class="col"
-                >
-                    <div>
-                        <nuxt-link v-if="g.url" :to="g.url"  @click.native="toggleMenu">
-                            {{ g.name }}:
-                        </nuxt-link>
-                        <b v-else>
-                            {{ g.name }}:
-                        </b>
-                        <br>
-                        <div v-for="(r, rindex) in g.routes" :key="rindex">
-                            - <nuxt-link
-                                :to="r.url"
-                                @click.native="toggleMenu"
-                            >
-                                {{r.label}}
+                <div class="col">
+                    <div
+                        v-for="(g, index) in routesGroup"
+                        :key="index"
+                        class="col"
+                    >
+                        <div>
+                            <nuxt-link v-if="g.url" :to="g.url"  @click.native="toggleMenu">
+                                {{ g.name }}:
                             </nuxt-link>
+                            <b v-else>
+                                {{ g.name }}:
+                            </b>
+                            <br>
+                            <div v-for="(r, rindex) in g.routes" :key="rindex">
+                                - <nuxt-link
+                                    :to="r.url"
+                                    @click.native="toggleMenu"
+                                >
+                                    {{r.label}}
+                                </nuxt-link>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</Transition>
+    </Transition>
 </div>
 </template>
 <script lang="ts">
