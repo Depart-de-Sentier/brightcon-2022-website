@@ -86,6 +86,11 @@ export default Vue.extend({
                     imageSrc: "/images/sponsors/sanofi_logo.png",
                     imageAlt: "Logo Sanofi"
                 },
+                {
+                    url: 'https://www.ecoinvent.org/',
+                    imageSrc: "/images/sponsors/ecoinvent Logo no tagline - spaced.png",
+                    imageAlt: "Logo ecoinvent"
+                },
 
             ],
             goldSponsors: [
