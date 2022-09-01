@@ -245,7 +245,7 @@ export default Vue.extend({
           name: 'IBIS Esch-Belval',
           websiteUrl:
             'https://all.accor.com/hotel/7071/index.fr.shtml?utm_term=mar&gclid=Cj0KCQjw-daUBhCIARIsALbkjSbTel61VKraL5IinXv1RPui8zPTg62vH8mChZ2gxhK0sFhpfGL9e-MaAsy2EALw_wcB&utm_campaign=ppc-ibi-mar-goo-be-fr-reg_top-mix-se&utm_medium=cpc&utm_content=be-fr-LU-V1243&utm_source=google',
-          comment: 'Near the station of Belval',
+          comment: 'Near the train station of Belval',
           adress: '12, avenue du Rock’n Roll (Belval) L-4361 Esch-sur-Alzette',
           price: '105 € /night (single room) | 120 €/night (double room)',
           tel: '(+352)261731',

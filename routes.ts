@@ -17,7 +17,7 @@ const routes = [
                 url: "/calls"
             },
             {
-                label: "Sponsors",
+                label: "Become a Sponsor",
                 url: "/sponsors"
             },
         ]
@@ -36,6 +36,10 @@ const routes = [
             {
                 label: "Speakers",
                 url: "/speakers"
+            },
+            {
+                label: "Awards",
+                url: "/awards"
             },
         ]
     },
