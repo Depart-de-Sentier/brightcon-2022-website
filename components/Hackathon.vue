@@ -7,5 +7,6 @@
       participate! Small teams will work on a defined and realistic goal, with
       prizes for the best results.
     </p>
+    <p>The full details are on the <nuxt-link to="/hackathon"> Hackathon details page.</nuxt-link> </p>
   </div>
 </template>
