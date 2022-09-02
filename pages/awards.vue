@@ -9,11 +9,18 @@
       <li>Open Sustainability at large contributions</li>
       <li>Outstanding contributions in other domains (TBC)</li>
     </ul>
+    <p>
+      We wish to our Palladium Sponsors for making this possible. The award
+      winners will be presented by our Palladium Sponsors, at the end of the
+      Conference.
+    </p>
+    <br />
 
-    We wish to our Palladium Sponsors for making this possible.
-    The award winners will be presented by our Palladium Sponsors, at the end of
-    the Conference.
-    <OurSponsors />
+    <OurSponsors
+      :nickelSponsorsEnabled="false"
+      :goldSponsorsEnabled="false"
+      sponsorsTitle="Thanks to our Sponsors for making the awards happen."
+    />
   </div>
 </template>
 <script lang="ts">
