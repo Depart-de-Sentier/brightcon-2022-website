@@ -69,7 +69,7 @@ export default Vue.extend({
             {
               time: '9:15-10:00',
               title: 'Tools and standards for prospective LCA',
-              presenters: 'POLCA',
+              presenters: 'Romain Sacchi',
               keynote: false,
             },
             {
@@ -78,8 +78,15 @@ export default Vue.extend({
               keynote: false,
             },
             {
-              time: '10:30-11:15',
-              title: 'Talks TBD',
+              time: '10:30-10:50',
+              title: 'Integrating LCA in the digital transformation of factories',
+              presenters: 'Miguel Fernández Astudillo',
+              keynote: false,
+            },
+            {
+              time: '10:50-11:10',
+              title: 'Perturbation Analysis in Brightway2: Identifying key factors for the environmental performance of a product or service',
+              presenters: 'Sarah Schmidt, David Laner',
               keynote: false,
             },
             {
@@ -97,33 +104,34 @@ export default Vue.extend({
             {
               time: '13:30-14:15',
               title: 'GSA Framework',
-              presenters: 'Aleksandra (Sasha) Kim',
+              presenters: 'Aleksandra Kim',
               keynote: true,
             },
             {
-              time: '14:15-15:00',
-              title: 'Software Demonstration TBD',
+              time: '14:15-14:45',
+              title: 'openlca2bw package to import OpenLCA databases into Brightway2 structure',
+              presenters: 'Cyrille Francois',
               keynote: false,
             },
             {
-              time: '15:00-15:15',
+              time: '14:45-15:00',
               title: 'Pause',
               keynote: false,
             },
             {
-              time: '15:15-16:00',
+              time: '15:00-16:00',
               title: 'Brightway 2.5 in action',
               presenters: 'Chris Mutel',
               keynote: false,
             },
             {
               time: '16:00-17:00',
-              title: 'Poster / Interactive session TBD',
+              title: 'Poster session',
               keynote: false,
             },
 
             {
-              time: '17:30-20:00',
+              time: '16:30-20:00',
               title: 'Conference cocktail drink',
               keynote: false,
             },
@@ -133,36 +141,42 @@ export default Vue.extend({
           date: 'Thursday, Sept. 29',
           sessions: [
             {
-              time: '09:00-09:30',
-              title: 'Keynote: Open LCA software advances.',
+              time: '09:00-09:45',
+              title: 'Keynote: Open LCA software advances',
               presenters: 'Michael Srocka',
               keynote: true,
             },
             {
-              time: '9:30-10:15',
+              time: '9:45-10:15',
               title: 'Round Table: Semantic technologies in LCA',
-              presenters: 'Calin BOJE,',
+              presenters: 'Calin Boje, Agneta Ghose, Didier Beloin-St-Pierre',
               keynote: false,
             },
             {
-              time: '10:15-10:30',
+              time: '10:15-10:45',
+              title: 'Global LCA Data Access network (GLAD) - Will integrating its API into LCA software benefit LCA (power) users?',
+              presenters: 'Oliver Kusche, Claudia Giacovelli',
+              keynote: false,
+            },
+            {
+              time: '10:45-11:00',
               title: 'Pause',
               keynote: false,
             },
             {
-              time: '10:30-11:15',
-              title: 'Integrating novel open data (lightning talks)',
-              presenters: '5 Minutes per speaker. Must include code for reuse.',
+              time: '11:00-11:15',
+              title: 'Lightning talks',
+              presenters: '5 Minutes per speaker. Last minute entries welcome!',
               keynote: false,
             },
             {
-              time: '11:15-11:30',
-              title: 'Contest solutions showcase',
+              time: '11:15-11:40',
+              title: 'Brightcon awards',
               keynote: false,
             },
             {
-              time: '11:30-11:45',
-              title: 'Contest judging & results',
+              time: '11:40-12:00',
+              title: 'Visualization contest.',
               keynote: false,
             },
             {
