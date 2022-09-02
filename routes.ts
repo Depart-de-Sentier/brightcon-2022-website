@@ -31,7 +31,7 @@ const routes = [
             },
             {
                 label: "Whats new in 2022",
-                url: "/whats-new-in-2022"
+                url: "/WhatsNewIn2022"
             },
             {
                 label: "Speakers",
