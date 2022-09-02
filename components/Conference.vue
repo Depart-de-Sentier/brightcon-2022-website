@@ -176,7 +176,7 @@ export default Vue.extend({
             },
             {
               time: '11:40-12:00',
-              title: 'Visualization contest judging & results',
+              title: 'Visualization contest.',
               keynote: false,
             },
             {
