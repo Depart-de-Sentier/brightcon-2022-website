@@ -2,6 +2,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  //generate 404 static page
+
+  generate: {fallback: true},
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Brightcon 2022',
