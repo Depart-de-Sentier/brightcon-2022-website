@@ -26,15 +26,15 @@
       </p>
 
       <h2 class="subtitle">Fees</h2>
-      <h3>Classes + Conference</h3>
+      <h3><span class="strike">Classes + Conference</span> Sold out!</h3>
       <table>
         <tr>
           <th>Dates</th>
           <th>Price</th>
         </tr>
         <tr>
-          <td>September 26 - September 30</td>
-          <td>400€</td>
+          <td class="strike">September 26 - September 30</td>
+          <td class="strike">400€</td>
         </tr>
       </table>
       <h3>Conference only</h3>
@@ -62,3 +62,9 @@ export default Vue.extend({
   },
 })
 </script>
+<style>
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+</style>
