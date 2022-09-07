@@ -42,10 +42,38 @@
 
     <h3>Promoting citizen science</h3>
 
-    You will have the opportunity to join the network of people doing air
-    quality measurement world-wide. An open source monitoring device will be
-    available for buying during the conference, and a keynote related to the
-    sensoring community will give you context on how to use such devices.
+    <span class="strike"
+      >You will have the opportunity to join the network of people doing air
+      quality measurement world-wide. An open source monitoring device will be
+      available for buying during the conference, and a keynote related to the
+      sensoring community will give you context on how to use such devices.
+    </span>
+    <p>
+      <br />
+      <span class="text-error">
+        Due to the very low demand, this part of Brightcon will not take place
+        this year. You can still buy your own sensor, build it, contribute and
+        maybe even present your experience during Brighcon 2023.
+      </span>
+    </p>
+    <ul>
+      <li>
+        To get more information about the sensors, visit the
+        <a href="https://sensor.community/en/" target="_blank"
+          >Sensor Community website.</a
+        >
+      </li>
+      <li>
+        You can build your own sensor following 
+        <a href="https://sensor.community/en/sensors/airrohr/" target="_blank"> the shopping list and instructions. </a> You will also find there
+        links to
+        <a
+          href="https://nettigo.eu/products/sensor-community-kit-sds011-bme280-english-language-harness-cable-edition" target="_blank"
+          >suppliers</a
+        >
+        that provide the full kit, ready to be "assembled".
+      </li>
+    </ul>
 
     <h3>Contest</h3>
 
@@ -71,3 +99,9 @@ export default Vue.extend({
   },
 })
 </script>
+<style>
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+</style>
