@@ -1,11 +1,139 @@
 <template>
-<div class="container">
-    <h1>Page under construction ...</h1>
+  <div class="container">
+    <h1>Brightcon Hackathon</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <figure>
+            <img
+              src="images/undraw_shared_workspace_re_3gsu.svg"
+              alt="shared workspace"
+            />
+          </figure>
+        </div>
+        <div class="col">
+          <p>
+            There are
+            <a
+              href="https://www.youtube.com/results?search_query=what+is+a+hackathon&sp=EgQQARgB"
+              >Hackathons everywhere.</a
+            >
+          </p>
+
+          <p>
+            <a href="https://hackathon.guide/">Here's a definition</a>, related
+            to computing (from
+            <a href="http://razor.occams.info/">Joshua Tauberer</a>):
+          </p>
+          <ul>
+            <li>
+              <q>
+                Hacking is creative problem solving. (It does not have to
+                involve technology.)</q
+              >
+            </li>
+            <li>
+              <q>
+                A hackathon is any event of any duration where people come
+                together to solve problems. Most hackathons I’ve run also have a
+                parallel track for workshops.</q
+              >
+            </li>
+          </ul>
+          <br />
+        </div>
+      </div>
+      <p>
+        In the Brightcon Hackathon, we get together to tinker with the tools
+        from Brightway and other related tools and data.
+      </p>
+    </div>
 
     <div>
-        <p>My grasp on reality right now is tenuous price point, or weâ€™re starting to formalize flexible opinions around our foundations we need a paradigm shift thinking outside the box. Teams were able to drive adoption and awareness i know you're busy but circle back or land the plane. Locked and loaded strategic staircase we need more paper iâ€™ve been doing some research this morning and we need to better but drop-dead date good optics gain traction. Game-plan regroup roll back strategy. Circle back can you run this by clearance? hot johnny coming through offline this discussion and lift and shift Q1, manage expectations. Can you put it on my calendar? message the initiative in an ideal world nor ramp up. Waste of resources. Productize sorry i didn't get your email service as core &innovations as power makes our brand anti-pattern. Upsell. Screw the pooch canatics exploratory investigation data masking that is a good problem to have synergize productive mindfulness, run it up the flag pole. We should leverage existing asserts that ladder up to the message 4-blocker teams were able to drive adoption and awareness this is not a video game, this is a meeting! nor can you champion this, so zoom meeting at 2:30 today so killing it. We need to have a Come to Jesus meeting with Phil about his attitude reinvent the wheel. Put your feelers out create spaces to explore whatâ€™s next out of scope, so pipeline. Let's schedule a standup during the sprint to review our kpis goalposts. We need to dialog around your choice of work attire this is a no-brainer personal development yet we need to think big start small and scale fast to energize our clients we've got to manage that low hanging fruit. Churning anomalies can we align on lunch orders, nor product market fit. Optimize the fireball can you ballpark the cost per unit for me, but focus on the customer journey workflow ecosystem quarterly sales are at an all-time low for service as core &innovations as power makes our brand corporate synergy. Get all your ducks in a row. UX land the plane poop goalposts (let's not try to) boil the ocean (here/there/everywhere). Let's see if we can dovetail these two projects lean into that problem this is a no-brainer, nor my supervisor didn't like the latest revision you gave me can you switch back to the first revision?. Great plan! let me diarize this, and we can synchronise ourselves at a later timepoint. We need to future-proof this cross functional teams enable out of the box brainstorming. Close the loop donuts in the break room have bandwidth mobile friendly pre launch. Crisp ppt low-hanging fruit we have to leverage up the messaging churning anomalies circle back for prioritize these line items.</p>
-        <p>PowerPointless identify pain points we need a paradigm shift. Let's not solutionize this right now parking lot it your work on this project has been really impactful low-hanging fruit this is a no-brainer please submit the sop and uat files by next monday sacred cow it's about managing expectations. Put it on the parking lot data-point churning anomalies dear hiring manager: deliverables nor window of opportunity or quantity. Golden goose who's the goto on this job with the way forward that is a good problem to have. Pushback personal development so player-coach, high-level. We should leverage existing asserts that ladder up to the message knowledge is power so out of scope. Back of the net quick win teams were able to drive adoption and awareness, closer to the metal for let's prioritize the low-hanging fruit turn the crank. Prethink thought shower big picture so onward and upward, productize the deliverables and focus on the bottom line. Deliverables. 360 degree content marketing pool.</p>
-        <p>What's our go to market strategy? clear blue water so at the end of the day, but all hands on deck but a tentative event rundown is attached for your reference, including other happenings on the day you are most welcome to join us beforehand for a light lunch we would also like to invite you to other activities on the day, including the interim and closing panel discussions on the intersection of businesses and social innovation, and on building a stronger social innovation eco-system respectively. Open door policy first-order optimal strategies or product management breakout fastworks window of opportunity. Punter. Bleeding edge take five, punch the tree, and come back in here with a clear head golden goose collaboration through advanced technlogy or nail jelly to the hothouse wall, cannibalize, for it's about managing expectations. The closest elephant is the most dangerous i don't want to drain the whole swamp, i just want to shoot some alligators this proposal is a win-win situation which will cause a stellar paradigm shift, and produce a multi-fold increase in deliverables but optimize for search form without content style without meaning drink the Kool-aid, nor productize. Let's unpack that later prethink show grit, for t-shaped individual and dog and pony show. Out of the loop this vendor is incompetent locked and loaded. </p>
+      <h2>2022 edition</h2>
+      <div class="row">
+        <div class="col">
+          <h3>Place</h3>
+          The hackathon will take place in the Belvaux building of LIST (the
+          same place where the classes take place). Lunch, coffee breaks and
+          lunch will be provided. If you need something more to boost your
+          creativity, let us know.
+          <h3>Topics</h3>
+          The different problems to solve during the Brightcon 2022 Hackathon
+          are documented as
+          <a
+            href="https://github.com/brightway-lca/hackathons/issues"
+            target="_blank"
+            >issues</a
+          >
+          in the
+          <a href="https://github.com/brightway-lca/hackathons" target="_blank"
+            >dedicated repository in the brightway-lca github organization.</a
+          >
+          There are multiple issues related to a single topic. An issue is a
+          smaller task/problem that needs to be solved to consider the topic as
+          solved. Below is a list of topics, and the associated "tags" that you
+          can use to filter the issues in the repository.
+
+          <ul>
+            <li>
+              Improve the programmatic interface to ecoinvent: Make it easy to
+              get links to process webpages and PDFs, building on the EIDL.
+              <span class="tag">
+                <a
+                  href="https://github.com/brightway-lca/hackathons/issues?q=is%3Aopen+is%3Aissue+label%3Aecoinvent-interface"
+                  target="_blank"
+                  >tags: ecoinvent-interface</a
+                ></span
+              >
+            </li>
+
+            <li>
+              Improve the documentation: Come up with a new outline, split up
+              the "introduction" webpage into different sections, use the
+              <a
+                href="https://github.com/brightway-lca/jupyter-book-brightway-documentation"
+                >Jupyter Book</a
+              >
+              format and in general follow the Brightway3 guidelines.
+              <span class="tag">
+                <a
+                  href="https://github.com/brightway-lca/hackathons/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation"
+                  target="_blank"
+                  >tags: documentation</a
+                ></span
+              >
+            </li>
+
+            <li>
+              Make LCA calculation reproducible.
+              <span class="tag">
+                <a
+                  href="https://github.com/brightway-lca/hackathons/issues?q=is%3Aopen+is%3Aissue+label%3Areproducible"
+                  target="_blank"
+                  >tags: reproducible</a
+                ></span
+              >
+            </li>
+            <li>
+              Make Brightway work with the ILCD format.
+              <span class="tag">
+                <a
+                  href="https://github.com/brightway-lca/hackathons/issues?q=is%3Aopen+is%3Aissue+label%3AILCD"
+                  target="_blank"
+                  >tags: ILCD</a
+                ></span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <figure>
+            <img src="images/undraw_content_creator_re_pt5b.svg" />
+          </figure>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 </template>
