@@ -56,17 +56,18 @@
     the conference, and the best solutions will receive a prize: 800 € for the
     first place, 500 € for the second place and 200 € for the third place. The
     rules and the details of the contest will be published on the conference
-    website and through the brightcon mailing list.
-
-    See the details on: <nuxt-link to="call-for-contest">Call for contest dedicated page in the website.</nuxt-link>
+    website and through the brightcon mailing list. See the details on:
+    <nuxt-link to="/call-for-contest"
+      >Call for contest dedicated page in the website.</nuxt-link
+    >
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue' 
+import Vue from 'vue'
 export default Vue.extend({
   head: {
     title: `What's new - Brightcon 2022`,
-  }
-});
+  },
+})
 </script>
