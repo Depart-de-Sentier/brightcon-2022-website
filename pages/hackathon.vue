@@ -7,7 +7,7 @@
         <div class="col">
           <figure>
             <img
-              src="images/undraw_shared_workspace_re_3gsu.svg"
+              src="/images/undraw_shared_workspace_re_3gsu.svg"
               alt="shared workspace"
             />
           </figure>
@@ -130,7 +130,7 @@
         </div>
         <div class="col">
           <figure>
-            <img src="images/undraw_content_creator_re_pt5b.svg" />
+            <img src="/images/undraw_content_creator_re_pt5b.svg" />
           </figure>
         </div>
       </div>
