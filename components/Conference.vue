@@ -22,7 +22,8 @@
           <tbody>
             <tr v-for="(session, session_id) in day.sessions" :key="session_id">
               <td>{{ session.time }}</td>
-              <td>{{ session.title }}</td>
+              <td v-if="session.url"><a href=:session.url target="_blank">{{ session.title }}</a></td>
+              <td v-else>{{ session.title }}</td>
               <td v-if="session.keynote">
                 <nuxt-link to="/speakers">{{ session.presenters }}</nuxt-link>
               </td>
@@ -42,6 +43,7 @@ interface Session {
   title: string
   presenters?: string
   keynote: boolean
+  url?: string
 }
 
 interface Day {
@@ -182,6 +184,12 @@ export default Vue.extend({
             {
               time: '12:00-12:30',
               title: 'Farewell and thanks',
+              keynote: false,
+            },
+            {
+              time: 'around 6pm',
+              title: 'Guided visit of the Blast Furnace of Belval.',
+	      url: 'https://www.visitluxembourg.com/blast-furnace-belval',
               keynote: false,
             },
           ],
