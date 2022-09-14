@@ -54,6 +54,10 @@ const routes = [
                 label: "Venue",
                 url: "/venue"
             },
+            {
+                label: "Health Protection",
+                url: "/HealthProtection"
+            },
         ]
     },
     {

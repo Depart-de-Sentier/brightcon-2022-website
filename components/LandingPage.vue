@@ -37,8 +37,7 @@
         <div class="col hide-xs hide-sm">
           <div class="">
             <p>
-              Registration will open in June. To stay updated on this annual
-              conference, subscribe to our
+              To stay updated on this annual conference, subscribe to our
               <a href="https://brightway.groups.io/g/brightcon">
                 mailing list </a
               >.
@@ -60,8 +59,8 @@
   position: relative;
 }
 .background:after {
-  content: "";
-  background: url("/images/leaf.png") center center;
+  content: '';
+  background: url('/images/leaf.png') center center;
   background-size: cover;
   opacity: 0.1;
   top: 0;
