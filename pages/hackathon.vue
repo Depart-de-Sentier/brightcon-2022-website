@@ -134,6 +134,16 @@
           </figure>
         </div>
       </div>
+      <div>
+        <h3>
+          JetBrains sponsors the conference with a free license of their
+          products.
+        </h3>
+        <img
+          src="/images/sponsors/jb_beam.svg"
+          alt="JetBrains Logo (Main) logo."
+        />
+      </div>
     </div>
   </div>
 </template>

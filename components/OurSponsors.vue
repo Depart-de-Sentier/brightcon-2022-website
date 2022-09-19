@@ -1,7 +1,7 @@
 <template>
   <div class="background">
     <div class="container">
-      <h1 class="text-center">{{sponsorsTitle}}</h1>
+      <h1 class="text-center">{{ sponsorsTitle }}</h1>
 
       <div v-if="palladiumSponsors.length > 0 && palladiumSponsorsEnabled">
         <h2>Palladium</h2>
@@ -53,6 +53,13 @@
           </div>
         </div>
       </div>
+      <div>
+        JetBrains sponsors the conference with a free license of their products.
+        <img
+          src="/images/sponsors/jb_beam.svg"
+          alt="JetBrains Logo (Main) logo."
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -64,7 +71,11 @@ export default Vue.extend({
     palladiumSponsorsEnabled: { required: false, default: true, type: Boolean },
     goldSponsorsEnabled: { required: false, default: true, type: Boolean },
     nickelSponsorsEnabled: { required: false, default: true, type: Boolean },
-    sponsorsTitle: {required: false, default: "Thanks to our Sponsors!", type: String}, 
+    sponsorsTitle: {
+      required: false,
+      default: 'Thanks to our Sponsors!',
+      type: String,
+    },
   },
   data() {
     return {
