@@ -52,6 +52,14 @@
             <a href="https://twitter.com/tomasN_list?t=l00iN9miHddObV3Ljy8m2A&s=09" rel="noopener" target="__blank"> <twitter-icon /> </a>
           </div>
         </div>
+        <div>
+          <b>Follow us on twitter</b>
+        </div>
+        <div class="row text-left">
+          <div class="col">
+            <a href="https://twitter.com/brightcon_media" rel="noopener" target="__blank"> <twitter-icon /> </a>
+          </div>
+          </div>
       </div>
     </div>
     <div class="bg-light">

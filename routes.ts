@@ -1,6 +1,7 @@
 interface Route {
     label: string
     url: string
+    external: boolean
 }
 
 export interface RouteGroup {
@@ -14,11 +15,18 @@ const routes = [
         routes: [
             {
                 label: "Calls",
-                url: "/calls"
+                url: "/calls",
+		external: false
             },
             {
                 label: "Become a Sponsor",
-                url: "/sponsors"
+                url: "/sponsors",
+		external: false
+            },
+            {
+                label: "Tweet!",
+                url: "https://twitter.com/brightcon_media",
+		external: true
             },
         ]
     },
@@ -27,19 +35,23 @@ const routes = [
         routes: [
             {
                 label: "Programme",
-                url: "/programme"
+                url: "/programme",
+		external: false
             },
             {
                 label: "Whats new in 2022",
-                url: "/WhatsNewIn2022"
+                url: "/WhatsNewIn2022",
+		external: false
             },
             {
                 label: "Speakers",
-                url: "/speakers"
+                url: "/speakers",
+		external: false
             },
             {
                 label: "Awards",
-                url: "/awards"
+                url: "/awards",
+		external: false
             },
         ]
     },
@@ -48,15 +60,18 @@ const routes = [
         routes: [
             {
                 label: "Register",
-                url: "/register"
+                url: "/register",
+		external: false
             },
             {
                 label: "Venue",
-                url: "/venue"
+                url: "/venue",
+		external: false
             },
             {
                 label: "Health Protection",
-                url: "/HealthProtection"
+                url: "/HealthProtection",
+		external: false
             },
         ]
     },
@@ -65,7 +80,8 @@ const routes = [
         routes: [
             {
                 label: "Details",
-                url: "/hackathon"
+                url: "/hackathon",
+		external: false
             },
         ]
     },
@@ -74,11 +90,13 @@ const routes = [
         routes: [
             {
                 label: "Call for contest",
-                url: "/call-for-contest"
+                url: "/call-for-contest",
+		external: false
             },
             {
                 label: "Results",
-                url: "/contest-results"
+                url: "/contest-results",
+		external: false
             },
         ]
     },
@@ -87,11 +105,13 @@ const routes = [
         routes: [
             {
                 label: "Code of conduct",
-                url: "/code-of-conduct"
+                url: "/code-of-conduct",
+		external: false
             },
             {
                 label: "Legal",
-                url: "/legal"
+                url: "/legal",
+		external: false
             },
         ]
     },
