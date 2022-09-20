@@ -133,7 +133,7 @@ export default Vue.extend({
             },
 
             {
-              time: '16:30-20:00',
+              time: '16:30-18:00',
               title: 'Conference cocktail drink',
               keynote: false,
             },
