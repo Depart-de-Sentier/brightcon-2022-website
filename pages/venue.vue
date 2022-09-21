@@ -5,30 +5,53 @@
     Brightcon 2022 will take place in the
     <a href="https://www.belval.lu/en/">Belval campus</a> of Esch-sur-Alzette,
     Luxembourg.
+    <a
+      href="https://www.list.lu/fileadmin/files/2022_ACCESS_MAP_BELVAL_BELVAUX_EN.pdf"
+    >
+      Here's an overview of the different LIST sites. For Belvaux, Look for item
+      3
+    </a>
     <h3>Classes location</h3>
     The classes of Sept. 26-27, will be held on the Belvaux building of LIST,
     <b>rooms F011-A and F011-B</b>:
     <p>41 rue du Brill, L-4422 Belvaux, Tel. : +352 275 888 1</p>
-    <a
-      href="https://www.list.lu/fileadmin/files/2022_ACCESS_MAP_BELVAL_BELVAUX_EN.pdf"
-    >
-      Access map (Look for 3 Belvaux site)
-    </a>
+    <h4>Directions</h4>
+    <ul>
+      <li>
+        <a href="/maps/Directions_Gare_Belval_LIST.pdf">
+          🚶Directions from the nearest train station
+        </a>
+      </li>
+    </ul>
     <h3>Conference location</h3>
     The conference of Sept. 28-29 will be held on:
     <p>
-      Batiment admnistratif Fonds de belval , 1 Av. du Rock'n'Roll , 4361
+      Batiment admnistratif de Fonds Belval, 1 Av. du Rock'n'Roll, 4361
       Esch-sur-Alzette
     </p>
+    <h4>Directions</h4>
+    <ul>
+      <li>
+        When you get out of the Belval-Université train station to the Belval
+        campus, take a right turn on Avenue du Rock'n'Roll.
+        <a href="https://goo.gl/maps/qpTic2vT2nmUHFu97">
+          The building is less than 2 minutes walk from there.
+        </a>
+      </li>
+    </ul>
+
     <h3>Hackathon location</h3>
     The hackathon of Sept. 29-30, will be held on the Belvaux building of LIST,
     <b>rooms F011-A and F011-B</b>:
     <p>41 rue du Brill, L-4422 Belvaux, Tel. : +352 275 888 1</p>
-    <a
-      href="https://www.list.lu/fileadmin/files/2022_ACCESS_MAP_BELVAL_BELVAUX_EN.pdf"
-    >
-      Access map (Look for 3 Belvaux site)
-    </a>
+    <h4>Directions</h4>
+    <ul>
+      <li>
+        <a href="/maps/Directions_Gare_Belval_LIST.pdf">
+          🚶Directions from the nearest train station
+        </a>
+      </li>
+    </ul>
     <h3>How to reach Luxembourg</h3>
     <ul>
       <li>
