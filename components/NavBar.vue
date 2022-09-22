@@ -48,7 +48,7 @@
           Become a sponsor
         </nuxt-link>
         <nuxt-link to="/register" acitve-class="active" class="button primary">
-          Register
+          <span class="strike">Register</span>
         </nuxt-link>
       </div>
     </div>
@@ -102,7 +102,7 @@
             acitve-class="active"
             class="button primary"
           >
-            Register
+            <span class="strike">Register</span>
           </nuxt-link>
         </div>
       </nav>
@@ -125,5 +125,9 @@ export default Vue.extend({
 <style>
 .menu-icon-container {
   cursor: pointer;
+}
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: black;
 }
 </style>

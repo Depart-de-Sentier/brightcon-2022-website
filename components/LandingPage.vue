@@ -27,7 +27,7 @@
               Programme
             </nuxt-link> -->
             <nuxt-link to="/register" class="button primary">
-              Register
+              <span class="strike">Register</span>
             </nuxt-link>
             <!-- <nuxt-link to="/sponsor" class="button primary">
                             Become a sponsor
@@ -73,5 +73,9 @@
 
 .hero {
   height: 40vh;
+}
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: black;
 }
 </style>
