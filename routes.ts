@@ -28,6 +28,11 @@ const routes = [
                 url: "https://twitter.com/brightcon_media",
 		external: true
             },
+            {
+                label: "Gitter",
+                url: "https://gitter.im/brightway-lca/brightcon",
+		external: true
+            },
         ]
     },
     {
@@ -82,6 +87,16 @@ const routes = [
                 label: "Details",
                 url: "/hackathon",
 		external: false
+            },
+            {
+                label: "Dribdat",
+                url: "https://hack.brightcon.link",
+		external: true
+            },
+            {
+                label: "Gitter",
+                url: "https://gitter.im/brightway-lca/brightcon",
+		external: true
             },
         ]
     },

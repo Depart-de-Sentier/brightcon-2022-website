@@ -54,6 +54,24 @@
       <h2>2022 edition</h2>
       <div class="row">
         <div class="col">
+          <img src="/images/undraw_programming_re_kg9v.svg" />
+        </div>
+        <div class="col">
+          <h3>Tools</h3>
+          <ul>
+            <li>
+              <a href="https://hack.brightcon.link">Dribdat</a> A Platform to
+              track the challenges and their projects.
+            </li>
+            <li>
+              <a href="https://gitter.im/brightway-lca/brightcon">Gitter</a>
+              Where brightway-lca developers and hackers meet to talk.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
           <h3>Place</h3>
           The hackathon will take place in the Belvaux building of LIST (the
           same place where the classes take place). Lunch, coffee breaks and
