@@ -144,6 +144,27 @@
                 ></span
               >
             </li>
+            <li>
+              Design document for how a family of LCIA methods should be stored
+              and used in MultiLCA.
+              <span class="tag">
+                <a
+                  href="https://github.com/brightway-lca/hackathons/issues?q=is%3Aopen+is%3Aissue+label%3Amethod-family"
+                  target="_blank"
+                  >tags: method-family</a
+                ></span
+              >
+            </li>
+            <li>
+              Fix imports from openlca json exports.
+              <span class="tag">
+                <a
+                  href="https://github.com/brightway-lca/hackathons/issues?q=is%3Aopen+is%3Aissue+label%3Aopenlca-related"
+                  target="_blank"
+                  >tags: openlca-related</a
+                ></span
+              >
+            </li>
           </ul>
         </div>
         <div class="col">
@@ -157,6 +178,7 @@
           JetBrains sponsors the conference with a free license of their
           products.
         </h3>
+        There will be a raffle during the hackathon for this one free license.
         <img
           src="/images/sponsors/jb_beam.svg"
           alt="JetBrains Logo (Main) logo."
