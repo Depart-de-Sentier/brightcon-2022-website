@@ -16,7 +16,11 @@
                   <div v-for="(r, rindex) in g.routes" :key="rindex">
                     <template v-if="r.external">
                       -
-                      <a :href="r.url" @click.native="toggleMenu">
+                      <a
+                        :href="r.url"
+                        target="_blank"
+                        @click.native="toggleMenu"
+                      >
                         {{ r.label }}
                       </a>
                     </template>
