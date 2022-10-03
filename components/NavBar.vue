@@ -24,7 +24,7 @@
           Venue
         </nuxt-link>
         <nuxt-link
-          to="/call-for-contest"
+          to="/contest"
           active-class="active"
           class="button primary success"
         >
@@ -91,7 +91,7 @@
             Venue
           </nuxt-link>
         <nuxt-link
-          to="/call-for-contest"
+          to="/contest"
           active-class="active"
           class="button primary success"
         >

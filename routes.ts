@@ -104,8 +104,8 @@ const routes = [
         name: 'Contest',
         routes: [
             {
-                label: "Call for contest",
-                url: "/call-for-contest",
+                label: "Contest",
+                url: "/contest",
 		external: false
             },
             {

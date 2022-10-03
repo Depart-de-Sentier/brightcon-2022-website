@@ -85,7 +85,7 @@
     first place, 500 € for the second place and 200 € for the third place. The
     rules and the details of the contest will be published on the conference
     website and through the brightcon mailing list. See the details on:
-    <nuxt-link to="/call-for-contest"
+    <nuxt-link to="/contest"
       >Call for contest dedicated page in the website.</nuxt-link
     >
   </div>
