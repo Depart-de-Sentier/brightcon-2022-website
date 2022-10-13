@@ -33,7 +33,7 @@
     <div class="card bg-light">
       <h2>Full details in the github repo</h2>
       <a href="https://github.com/Depart-de-Sentier/visualization-contest-2022">
-        👉 github.com/depart-de-sentier/visualizatoin-contest-2022</a
+        👉 github.com/depart-de-sentier/visualization-contest-2022</a
       >
     </div>
 
