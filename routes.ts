@@ -58,6 +58,11 @@ const routes = [
                 url: "/awards",
 		external: false
             },
+            {
+                label: "What Happened in 2022",
+                url: "/whathap",
+		external: false
+            },
         ]
     },
     {

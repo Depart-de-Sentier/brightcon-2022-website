@@ -1,21 +1,7 @@
 <template>
   <div class="container">
-    <h1>Brightcon 2022 Awards</h1>
-    This year, Brightcon will be awarding individuals and teams under the
-    following categories:
-    <ul>
-      <li>Open contributions to the Brightway Ecosystem</li>
-      <li>Individual contributions to Brightway</li>
-      <li>Open Sustainability at large contributions</li>
-      <li>Outstanding contributions in other domains (TBC)</li>
-    </ul>
-    <p>
-      We wish to our Palladium Sponsors for making this possible. The award
-      winners will be presented by our Palladium Sponsors, at the end of the
-      Conference.
-    </p>
+    <AwardDetails />
     <br />
-
     <OurSponsors
       :nickelSponsorsEnabled="false"
       :goldSponsorsEnabled="false"
