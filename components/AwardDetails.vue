@@ -5,11 +5,11 @@
       Brightcon 2022 started a new part of the conference: the brightcon awards.
       With the help of our Sponsors, Brightcon 2022 had 4 awards. 2 awards for
       individual contribution and 2 for team contribution.
-    <p>
-      We wish to our Palladium Sponsors for making this possible. The award
-      winners were presented by our Palladium Sponsors, at the end of the
-      Conference.
-    </p>
+      <p>
+        We wish to our Palladium Sponsors for making this possible. The award
+        winners were presented by our Palladium Sponsors, at the end of the
+        Conference.
+      </p>
 
       <h3>Team contribution Awards</h3>
       <h4>
@@ -39,6 +39,17 @@
       propose include means to deal with the issues associated to producing
       environmental footprinting: the need for data primary data and gaps in
       data.
+      <div class="row">
+        <div class="col">
+          <nuxt-img src="/images/awards/circulartree-presenter.jpeg" />
+        </div>
+        <div class="col">
+          <nuxt-img src="/images/awards/award-receive-circulartree.jpeg" />
+        </div>
+        <div class="col">
+          <nuxt-img src="/images/awards/award-receive-remote-abteam.jpeg" />
+        </div>
+      </div>
       <h4>
         Award presented by the
         <a href="https://ecoinvent.org/">Ecoinvent Association</a>to the
@@ -64,11 +75,22 @@
       the development in the open source community around LCA because open
       source makes it easy for people to use the ecoinvent data in their
       assessments. This is why they are sponsoring Brightcon.
+      <div class="row">
+        <div class="col">
+          <nuxt-img src="/images/awards/ecoinvent-presenter.jpeg" />
+        </div>
+        <div class="col">
+          <nuxt-img src="/images/awards/award-receive-ntnu.jpg" />
+        </div>
+        <div class="col">
+          <nuxt-img src="/images/awards/award-receive-remote-ntnu.jpeg" />
+        </div>
+      </div>
 
       <h3>Individual contribution Awards</h3>
       <h4>
         Award presented by our Sponsor
-        <a href="https://www.sanofi.fr/">Sanofi</a>to
+        <a href="https://www.sanofi.fr/">Sanofi</a> to
         <a
           href="https://www.linkedin.com/in/romainsacchi/?originalSubdomain=ch"
           target="_blank"
@@ -100,6 +122,15 @@
       "Ecodesign Digital Intelligence" tool that they would like to present in
       future editions of Brightcon.
 
+      <div class="row">
+        <div class="col">
+          <nuxt-img src="/images/awards/sanofi-presenter.jpeg" />
+        </div>
+        <div class="col">
+          <nuxt-img src="/images/awards/award-receive-romain.jpeg" />
+        </div>
+      </div>
+
       <ul></ul>
       <h4>
         Award presented to by Sponsor
@@ -128,6 +159,14 @@
       supply, as well as their interconnections with the European grid. Rte is
       ready to propose specific sessions for next Brightcon editions, as well as
       to support the Brightway community.
+      <div class="row">
+        <div class="col">
+          <nuxt-img src="/images/awards/rte-presenter.jpeg" />
+        </div>
+        <div class="col">
+          <nuxt-img src="/images/awards/award-receive-benjamin.jpeg" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
