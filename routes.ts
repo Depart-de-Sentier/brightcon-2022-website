@@ -63,6 +63,12 @@ const routes = [
                 url: "/whathap",
 		external: false
             },
+            {
+                label: "2022 Photos",
+                url: "/Photos",
+		external: false
+            },
+
         ]
     },
     {

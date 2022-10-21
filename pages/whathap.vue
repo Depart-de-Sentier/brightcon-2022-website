@@ -30,6 +30,9 @@
       <img src="/images/participants/chart_hackathon_by_org.png" />
     </div>
   <AwardDetails />
+  <br />
+  For some 📷 of the event, take a look at the <NuxtLink to="Photos" >page </NuxtLink>.
+
   </div>
 </template>
 
